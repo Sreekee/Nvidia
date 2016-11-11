@@ -1,7 +1,6 @@
 ----------------------------------------------------------------------
--- DS-GA 1008 Deep Learning: HW1 code by Duchess
+-- DS-GA 1008 Deep Learning: HW1 code
 --
---                      Feb. 2016, Israel Malkin & Yasumasa Miyamoto
 ----------------------------------------------------------------------
 
 --[[ HELPER FUNCTIONS ]]-----------------------------------

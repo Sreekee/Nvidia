@@ -1,10 +1,8 @@
 ----------------------------------------------------------------------
--- DS-GA 1008 Deep Learning: HW1 code by Duchess
+-- DS-GA 1008 Deep Learning: HW1 code
 --
 -- Base code is here:
 --       https://github.com/torch/tutorials/tree/master/2_supervised
---
---                      Feb. 2016, Israel Malkin & Yasumasa Miyamoto
 ----------------------------------------------------------------------
 
 require 'torch'
@@ -18,14 +16,12 @@ function generateModel(model_type, cpu_type)
 
 
     local noutputs = 10
-
     local nfeats = 0
     local width = 0
     local height = 0
     local ninputs = 0
 
     if opt.augm == 1 then
-
         nfeats = 1
         width = 32
         height = 32
@@ -37,9 +33,7 @@ function generateModel(model_type, cpu_type)
         ninputs = nfeats*width*height
     end
 
-
     local nhiddens = ninputs / 2
-
 
     local nstates = {64,64,128}
     local filtsize = 5

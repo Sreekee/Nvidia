@@ -7,6 +7,8 @@ Deep learning teaching kit.
     
 Please refer to the official torch webpage: [here](http://torch.ch/docs/getting-started.html) 
 
+For Windows users, please refer to [Running Torch on Windows](https://github.com/torch/torch7/wiki/Windows#using-a-virtual-machine).
+
 #### CUDA support
 
 Thanks to the rapid develop of modern GPUs, training deep networks in a large-scale data-driven context becomes more and more affordable in terms of both time and resource cost.

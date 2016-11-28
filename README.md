@@ -14,6 +14,7 @@ Training networks on an GPU is recommended for the assignments in all the lab as
 
 Practically, we urge students to install CUDA libraries prior to install any deep learning specific tools.
 To install them, please refer to:
+
 - [CUDA installation page](http://docs.nvidia.com/cuda/cuda-installation-guide-linux/#axzz4RK3pacJh)
 - [CUDNN torch bindings](https://github.com/soumith/cudnn.torch)
 

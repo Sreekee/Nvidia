@@ -25,6 +25,6 @@ To install them, please refer to:
 
 For instance, in order to obtain the kit on a laptop or workstation, and further access assignment 1:
 ```
-    git clone SSH-OR-HTTP-URL
+    git clone git@bitbucket.org:junbo_jake_zhao/deeplearningkit.git
     cd a1
 ```

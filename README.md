@@ -21,11 +21,13 @@ The Deep Learning Teaching Kit labs and example solutions are based on the [Torc
 
 For Windows users, please refer to [Running Torch on Windows](https://github.com/torch/torch7/wiki/Windows#using-a-virtual-machine).
 
-### cuDNN
+#### cuDNN
 
 The NVIDIA CUDA® Deep Neural Network library (cuDNN) is a GPU-accelerated library of primitives for deep neural networks. cuDNN provides highly tuned implementations for standard routines such as forward and backward convolution, pooling, normalization, and activation layers.
 
 To install cuDNN and use cuDNN with Torch, please follow the README on the [cuDNN torch bindings](https://github.com/soumith/cudnn.torch) project.
+
+## Compiling and Running Labs
 
 #### GIT basic usage
 

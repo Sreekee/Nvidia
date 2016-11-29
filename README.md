@@ -34,6 +34,8 @@ To install cuDNN and use cuDNN with Torch, please follow the README on the [cuDN
 
 ## About the labs and solutions
 
+....
+
 ## Compiling and running lab solutions
 
 #### GIT basics

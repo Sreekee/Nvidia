@@ -1,7 +1,7 @@
-Deep learning teaching kit.
+Deep Learning Teaching Kit Labs
 ===
 
-## Start-ups
+## System Requirements
 
 #### Torch installation
     
@@ -11,8 +11,8 @@ For Windows users, please refer to [Running Torch on Windows](https://github.com
 
 #### CUDA support
 
-Thanks to the rapid develop of modern GPUs, training deep networks in a large-scale data-driven context becomes more and more affordable in terms of both time and resource cost.
-Training networks on an GPU is recommended for the assignments in all the lab assignments in this kit, which applies to both convolutional network (in lab1 and lab2) as well as the recurrent networks (in lab4).
+Thanks to the rapid develop of modern GPUs, training deep networks in a large-scale, data-driven context becomes more and more affordable in terms of both time and resource cost.
+Training neural networks on GPUs is recommended for the Deep Learning Teaching Kit labs, including both convolutional networks (Lab1 and Lab2) and recurrent networks (in Lab4).
 
 Practically, we urge students to install CUDA libraries prior to install any deep learning specific tools.
 To install them, please refer to:

@@ -1,6 +1,6 @@
-# Deep Learning Teaching Kit Labs
+# Deep Learning Teaching Kit Lab/solution Repository
 
-Welcome to the Deep Learning Teaching Kit Labs/solutions repository. The kit and associated labs are produced jointly by NVIDIA and New York University (NYU).  All material is available under the [Creative Commons Attribution-NonCommercial License](http://creativecommons.org/licenses/by-nc/4.0/).
+Welcome to the Deep Learning Teaching Kit Lab/solution repository. The kit and associated labs are produced jointly by NVIDIA and New York University (NYU).  All material is available under the [Creative Commons Attribution-NonCommercial License](http://creativecommons.org/licenses/by-nc/4.0/).
 
 ## System Requirements
 

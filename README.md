@@ -15,13 +15,18 @@ from the [CUDA Download](https://developer.nvidia.com/cuda-downloads) page. Inst
 
 CUDA and the associated libraries should be installed prior to any deep learning specific tools.
 
-- [CUDNN torch bindings](https://github.com/soumith/cudnn.torch)
-
-#### Torch installation
+#### Torch computing framework
     
-Please refer to the official torch webpage: [here](http://torch.ch/docs/getting-started.html) 
+The Deep Learning Teaching Kit labs and example solutions are based on the [Torch](http://torch.ch) computing framework. Please refer to [Getting started with Torch](http://torch.ch/docs/getting-started.html) for instruction on Torch installation, examples and documentation.
 
 For Windows users, please refer to [Running Torch on Windows](https://github.com/torch/torch7/wiki/Windows#using-a-virtual-machine).
+
+### cuDNN
+
+The NVIDIA CUDA® Deep Neural Network library (cuDNN) is a GPU-accelerated library of primitives for deep neural networks. cuDNN provides highly tuned implementations for standard routines such as forward and backward convolution, pooling, normalization, and activation layers.
+
+To install cuDNN and use cuDNN with Torch, please follow the Readme on the [cuDNN torch bindings](https://github.com/soumith/cudnn.torch) project.
+
 #### GIT basic usage
 
 For instance, in order to obtain the kit on a laptop or workstation, and further access assignment 1:

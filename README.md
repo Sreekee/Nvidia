@@ -13,10 +13,8 @@ from the [CUDA Download](https://developer.nvidia.com/cuda-downloads) page. Inst
 [Quick Start page](http://docs.nvidia.com/cuda/cuda-quick-start-guide/index.html). Installation guides and the list of supported C compilers for [Windows](http://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/index.html), [Linux](http://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html), and
 [OSX](http://docs.nvidia.com/cuda/cuda-installation-guide-mac-os-x/index.html) are also found in the [CUDA Toolkit Documentation Page](http://docs.nvidia.com/cuda/index.html).
 
-Practically, we urge students to install CUDA libraries prior to install any deep learning specific tools.
-To install them, please refer to:
+CUDA and the associated libraries should be installed prior to any deep learning specific tools.
 
-- [CUDA installation page](http://docs.nvidia.com/cuda/cuda-installation-guide-linux/#axzz4RK3pacJh)
 - [CUDNN torch bindings](https://github.com/soumith/cudnn.torch)
 
 #### Torch installation

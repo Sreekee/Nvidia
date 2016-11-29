@@ -4,7 +4,7 @@ Welcome to the Deep Learning Teaching Kit Lab/solution repository. The kit and a
 
 The labs are designed to be open-ended, multidisciplinary, one- to three-week hands-on programming and written assignments for students. Each lab contains a description of the lab, pointers to required sample code, and suggestions on how to evaluate and have students submit their solutions. Some programming labs include optimizing a neural network training model and suggest students submit solutions to Kaggle using [Kaggle In Class](https://inclass.kaggle.com/) to compare performance against benchmarks. Please read the Kaggle In Class [FAQ](https://www.kaggle.com/wiki/KaggleInClass) for more information on how to set up your course using Kaggle. Having students submit to Kaggle is **not** a requirement to make use of the labs.
 
-This lab solution repository contains quality lab solutions completed by actual students who have taken the Deep Learning curriculum course at NYU. Some solutions may require additional, undocumented instructions to properly execute, and may not run perfectly “out-of-box”. Still, they should be useful to motivate students and provide examples of successful solutions using a variety of techniques.
+This lab solution repository contains quality lab solutions developed by actual students who have taken the Deep Learning curriculum course at NYU. Some solutions may require additional, undocumented instructions to properly execute, and may not run perfectly “out-of-box”. Still, they should be useful to motivate students and provide examples of successful solutions using a variety of techniques.
 
 ## System Requirements
 

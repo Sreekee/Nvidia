@@ -2,6 +2,10 @@
 
 Welcome to the Deep Learning Teaching Kit Lab/solution repository. The kit and associated labs are produced jointly by NVIDIA and New York University (NYU).  All material is available under the [Creative Commons Attribution-NonCommercial License](http://creativecommons.org/licenses/by-nc/4.0/).
 
+The labs are designed to be open-ended, multidisciplinary, one- to three-week hands-on programming and written assignments for students. Each lab contains a description of the lab, pointers to required sample code, and suggestions on how to evaluate and have students submit their solutions. Some programming labs include optimizing a neural network training model and submitting to Kaggle using [Kaggle In Class](https://inclass.kaggle.com/) to compare performance against benchmarks. Please read the Kaggle In Class [FAQ](https://www.kaggle.com/wiki/KaggleInClass) for more information on how to set up your course using Kaggle. Having students submit to Kaggle is **not** a requirement of the labs.
+
+This lab solution repository contains quality lab solutions completed by actual students who have taken the Deep Learning curriculum course at NYU. Some solutions may require additional, undocumented instructions to properly execute, and may not run perfectly “out-of-box”. Still, they should be useful to motivate students and provide examples of successful solutions using a variety of techniques.
+
 ## System Requirements
 
 #### NVIDIA CUDA/GPUs
@@ -28,7 +32,9 @@ The NVIDIA CUDA® Deep Neural Network library (cuDNN) is a GPU-accelerated libra
 
 To install cuDNN and use cuDNN with Torch, please follow the README on the [cuDNN torch bindings](https://github.com/soumith/cudnn.torch) project.
 
-## Compiling and Running Lab Solutions
+## About the labs and solutions
+
+## Compiling and running lab solutions
 
 #### GIT basics
 

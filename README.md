@@ -8,7 +8,7 @@ Deep Learning Teaching Kit Labs
 Thanks to the rapid development of modern GPUs, training deep networks in a large-scale, data-driven context becomes more and more affordable in terms of both time and resource cost.
 Training neural networks on [NVIDIA CUDA-enabled GPUs](https://developer.nvidia.com/cuda-gpus) is practically a necessity for the Deep Learning Teaching Kit labs, including both convolutional networks (Lab1 and Lab2) and recurrent networks (in Lab4).
 
-The use of GPUs for the teaching kit labs require a CUDA supported operating system,
+The use of GPUs for the teaching kit labs requires a CUDA supported operating system,
 C compiler, and a recent CUDA Toolkit. The CUDA Toolkit can be downloaded
 from the [CUDA Download](https://developer.nvidia.com/cuda-downloads) page.
 Instructions on how to install the CUDA Toolkit are available in the

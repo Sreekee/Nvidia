@@ -42,15 +42,15 @@ To install cuDNN and use cuDNN with Torch, please follow the README on the [cuDN
 
 
 #### Lab design logic
-- baseline quickstart `sample_code`
+- **baseline quickstart `sample_code`**    
 We provide a baseline solution `sample_code` with each lab assignment. The specific running instruction is available under each `sample_code` folder. Training such model renders a baseline score to the given dataset that students are required to outperform. The `sample_code` is supposed to be released along with each lab assignment.
 
-- In-class competition
+- **In-class competition**    
 It is highly suggested to organize an in-class competition for each lab assignment: student may grab knowledge of on-going cutting-edge research papers or tech-reports to improve the model performance.
 The grading of the model performance may not be based on the rank, but just on if they manage to beat the baseline score provided by the instructor.
 The in-class competition is used to encourage students read and practice more on an open-ended problem.
 
-- Some sample `solution_code`
+- **Some exemplar approaches implementation in `solution_code` **   
 At last, we encourage the instructor to relase the folder `solution_code` after the assignment (and its in-class compititon) is due. 
 The `solution_code` folder is aimed to provide several exemplar implementation of some potential approaches that possibly improve the model performance. Due to the variaty of methods available, release these code is only on a purpose to provide certain insight to the student, but not to do a hands-on quickstart. (**TODO**)
 

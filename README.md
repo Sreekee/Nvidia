@@ -34,7 +34,12 @@ To install cuDNN and use cuDNN with Torch, please follow the README on the [cuDN
 
 ## About the labs and solutions
 
-....
+#### Recommended release time of the labs
+* Lab1: finishing at least slides module 1-prepare and 2-dl-basics
+* Lab2: finishing slides module 3-convnets
+* Lab3: finishing slides module 4-energy-based-learning and 5-optimization
+* Lab4: finishing slides module 6-learning-with-memory.
+
 
 ## Compiling and running lab solutions
 

@@ -1,6 +1,4 @@
-# ds-ga-1008-a2
-
-NYU course 2016 Spring 2016 Assignment 2
+# Lab 2
 
 This set of code is modified from Sergey Zagoruyko's cifar.torch tutorial: [cifar.torch](https://github.com/szagoruyko/cifar.torch/blob/master/README.md).
 

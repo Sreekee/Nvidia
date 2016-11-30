@@ -1,10 +1,3 @@
-----------------------------------------------------------------------
--- DS-GA 1008 Deep Learning: HW1 code
---
--- Base code is here:
---       https://github.com/torch/tutorials/tree/master/2_supervised
-----------------------------------------------------------------------
-
 function trainModel(cpu_type, optimMethod, optimState, optim_options)
     local time = sys.clock()
     local classes = {'1','2','3','4','5','6','7','8','9','0'}

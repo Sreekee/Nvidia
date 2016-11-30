@@ -1,6 +1,6 @@
 Language Modeling with Long Short Term Memory Units
 ============================
-Forked from https://github.com/tomsercu/lstm. 
+Forked from https://github.com/wojzaremba/lstm.
 
 Modifications
 --------------

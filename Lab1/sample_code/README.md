@@ -1,1 +1,4 @@
-To run this code, run: th doall.lua
+To run this code
+```
+th doall.lua
+```

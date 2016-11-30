@@ -42,6 +42,9 @@ To install cuDNN and use cuDNN with Torch, please follow the README on the [cuDN
 
 
 #### Lab design logic
+- **lab assignment desciption and solution write-up samples**
+Under the `documents` folder under each lab folder, the lab assignment description document is available as `lab*_doc.pdf` file. The sample solution write-up is also provided within the same folder.
+
 - **baseline quickstart `sample_code`**    
 We provide a baseline solution `sample_code` with each lab assignment. The specific running instruction is available under each `sample_code` folder. Training such model renders a baseline score to the given dataset that students are required to outperform. The `sample_code` is supposed to be released along with each lab assignment.
 

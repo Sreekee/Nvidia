@@ -31,10 +31,10 @@ To install cuDNN and use cuDNN with Torch, please follow the README on the [cuDN
 
 ## About the Labs/solutions
 
-#### `documents`
+#### Lab documents
 `documents` in each lab directory contains the same lab description and sample solution `.pdf` documents in the Teaching Kit `.zip` package downloadable from the [GPU Educators Program portal](https://developer.nvidia.com/educators).
 
-#### `sample_code`
+#### Baseline sample code
 `sample_code` in each each lab directory contains the baseline training model solution (as well as instructions to run) described in the lab descriptions. These baseline models render a baseline score for the given dataset that students are suggested to outperform. The `sample_code` is designed to be given to students when the lab is assigned.
 
 #### In-class competition    
@@ -42,7 +42,7 @@ Some programming labs include optimizing a neural network training model and sug
 
 Please read the Kaggle In Class [FAQ](https://www.kaggle.com/wiki/KaggleInClass) for more information on how to set up your course using Kaggle. Using Kaggle is **not** a requirement to make use of the labs.
 
-#### `solution_code`
+#### Lab solutions
 `solution_code` in each lab directory contains 1-2 example implementations of approaches that improve the model performance. These solutions were developed by real students who took the Deep Learning curriculum course at NYU. Some solutions may require additional, undocumented instructions to properly execute, and may not run perfectly “out-of-box”. Still, they should be useful examples of successful solutions using a variety of techniques for both instructors and students to learn from.
 
 #### Recommended prerequisite lectures for each lab

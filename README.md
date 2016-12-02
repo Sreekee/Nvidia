@@ -2,16 +2,13 @@
 
 Welcome to the Deep Learning Teaching Kit Lab/solution repository. The kit and associated labs are produced jointly by NVIDIA and New York University (NYU).  All material is available under the [Creative Commons Attribution-NonCommercial License](http://creativecommons.org/licenses/by-nc/4.0/).
 
-The labs are designed to be open-ended, multidisciplinary, one- to three-week programming and written assignments for students. Each lab contains a description, pointers to required sample code, and suggestions on how to evaluate and have students submit solutions. Some programming labs include optimizing a neural network training model and suggest students submit solutions to Kaggle using [Kaggle In Class](https://inclass.kaggle.com/) to compare performance against benchmarks. Please read the Kaggle In Class [FAQ](https://www.kaggle.com/wiki/KaggleInClass) for more information on how to set up your course using Kaggle. Students submit to Kaggle is **not** a requirement to make use of the labs.
-
-This repository contains lab solutions developed by actual students who have taken the Deep Learning curriculum course at NYU. Some solutions may require additional, undocumented instructions to properly execute, and may not run perfectly “out-of-box”. Still, they should be useful examples of successful solutions using a variety of techniques.
+The labs are designed to be open-ended, multidisciplinary, one- to three-week programming and written assignments for students. Each lab contains a description, pointers to required sample code, and suggestions on how instructors can evaluate and have students submit solutions. 
 
 ## System Requirements
 
 #### NVIDIA CUDA/GPUs
 
-Thanks to the rapid development of modern GPUs, training deep networks in a large-scale, data-driven context becomes more and more affordable in terms of both time and resource cost.
-Training neural networks on [NVIDIA CUDA-enabled GPUs](https://developer.nvidia.com/cuda-gpus) is practically a necessity for the Teaching Kit labs, including both convolutional networks (Lab1 and Lab2) and recurrent networks (in Lab4).
+Thanks to the rapid development of modern GPUs, training deep networks in a large-scale, data-driven context becomes more and more affordable in terms of both time and resource cost. Training neural networks on [NVIDIA CUDA-enabled GPUs](https://developer.nvidia.com/cuda-gpus) is a practical necessity for the Teaching Kit labs, including both convolutional networks (Lab1 and Lab2) and recurrent networks (Lab4).
 
 The use of GPUs for the Teaching Kit labs requires a CUDA supported operating system, C compiler, and a recent CUDA Toolkit. The CUDA Toolkit can be downloaded
 from the [CUDA Download](https://developer.nvidia.com/cuda-downloads) page. Instructions on how to install the CUDA Toolkit are available in the
@@ -34,26 +31,25 @@ To install cuDNN and use cuDNN with Torch, please follow the README on the [cuDN
 
 ## About the labs and solutions
 
-#### Lab descriptions and sample solutions
-The `documents` folder in each lab directory contains the same lab description and sample solution `.pdf` documents contained in the Teaching Kit `.zip` package downloadable from the GPU Educators Program [portal](https://developer.nvidia.com/educators).
+#### `documents`
+`documents` in each lab directory contains the same lab description and sample solution `.pdf` documents in the Teaching Kit `.zip` package downloadable from the [GPU Educators Program portal](https://developer.nvidia.com/educators).
 
 #### `sample_code`
-`sample_code` in each each lab directory contains the baseline training model solution (as well as instructions to run) described in the lab descriptions. These baseline models render a baseline score for the given dataset that students are required to outperform. The `sample_code` is designed to be given to students when the lab is assigned.
+`sample_code` in each each lab directory contains the baseline training model solution (as well as instructions to run) described in the lab descriptions. These baseline models render a baseline score for the given dataset that students are suggested to outperform. The `sample_code` is designed to be given to students when the lab is assigned.
 
-- **In-class competition**    
-It is highly suggested to organize an in-class competition for each lab assignment: student may grab knowledge of on-going cutting-edge research papers or tech-reports to improve the model performance.
-The grading of the model performance may not be based on the rank, but just on if they manage to beat the baseline score provided by the instructor.
-The in-class competition is used to encourage students read and practice more on an open-ended problem.
+#### In-class competition    
+Some programming labs include optimizing a neural network training model and suggest students submit solutions to Kaggle using [Kaggle In Class](https://inclass.kaggle.com/) to compare performance against each other and against the baseline model score from the `sample_code`. Such a competition can encourage students to study the latest public research papers and technical reports to improve their model performance on an open-ended problem. Grading model performance could simply be based on whether they outperform the baseline, or perhaps based on class rank.
 
-- **Some exemplar approaches implementation in `solution_code` **   
-At last, we encourage the instructor to relase the folder `solution_code` after the assignment (and its in-class compititon) is due. 
-The `solution_code` folder is aimed to provide several exemplar implementation of some potential approaches that possibly improve the model performance. Due to the variaty of methods available, release these code is only on a purpose to provide certain insight to the student, but not to do a hands-on quickstart. (**TODO**)
+Please read the Kaggle In Class [FAQ](https://www.kaggle.com/wiki/KaggleInClass) for more information on how to set up your course using Kaggle. Using Kaggle is **not** a requirement to make use of the labs.
 
-#### Recommended release time of the labs
-* Lab1: finishing at least slides module 1-prepare and 2-dl-basics
-* Lab2: finishing slides module 3-convnets
-* Lab3: finishing slides module 4-energy-based-learning and 5-optimization
-* Lab4: finishing slides module 6-learning-with-memory.
+#### `solution_code`
+`solution_code` in each lab directory contains 1-2 example implementations of approaches that improve the model performance. These solutions were developed by real students who took the Deep Learning curriculum course at NYU. Some solutions may require additional, undocumented instructions to properly execute, and may not run perfectly “out-of-box”. Still, they should be useful examples of successful solutions using a variety of techniques for both instructors and students to learn from.
+
+#### Recommended prerequisite lectures for each lab
+* Lab1: Module 1 - Introduction to Machine Learning and Module 2 - Introduction to Deep Learning
+* Lab2: Module 1 - Introduction to Machine Learning through Module 3 - Convolutional Neural Networks
+* Lab3: Module 1 - Introduction to Machine Learning through Module 5 - Optimization Techniques
+* Lab4: Module 1 - Introduction to Machine Learning through Module 6 - Learning with Memory
 
 ## Compiling and running lab solutions
 

@@ -48,7 +48,7 @@ Please read the Kaggle In Class [FAQ](https://www.kaggle.com/wiki/KaggleInClass)
 - Students/teams submit both their most accurate model and `result.lua` scripts
 - Instructor executes the `result.lua` for each student/team's submitted model on the unreleased testing dataset
 - Compare the model prediction and groudtruth label on the testing set, and obtain the accuracy
-- Use the testing accuracy to evaluate/compare students'/teams' model performanc
+- Use the testing accuracy to evaluate/compare students'/teams' model performance
 
 #### Lab solutions
 `solution_code` in each lab directory contains an example implementation of approaches that improve the model performance. These solutions were developed by real students who took the Deep Learning curriculum course at NYU. Some solutions may require additional, undocumented instructions to properly execute. 

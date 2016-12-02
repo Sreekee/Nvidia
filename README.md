@@ -46,7 +46,7 @@ Please read the Kaggle In Class [FAQ](https://www.kaggle.com/wiki/KaggleInClass)
 `solution_code` in each lab directory contains 1-2 example implementations of approaches that improve the model performance. These solutions were developed by real students who took the Deep Learning curriculum course at NYU. Some solutions may require additional, undocumented instructions to properly execute, and may not run perfectly “out-of-box”. Still, they should be useful examples of successful solutions using a variety of techniques for both instructors and students to learn from.
 
 #### Recommended prerequisite lectures for each lab
-* Lab1: Module 1 - Introduction to Machine Learning and Module 2 - Introduction to Deep Learning
+* Lab1: Module 1 - Introduction to Machine Learning through Module 2 - Introduction to Deep Learning
 * Lab2: Module 1 - Introduction to Machine Learning through Module 3 - Convolutional Neural Networks
 * Lab3: Module 1 - Introduction to Machine Learning through Module 5 - Optimization Techniques
 * Lab4: Module 1 - Introduction to Machine Learning through Module 6 - Learning with Memory

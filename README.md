@@ -42,13 +42,13 @@ Some programming labs include optimizing a neural network training model and sug
 
 Please read the Kaggle In Class [FAQ](https://www.kaggle.com/wiki/KaggleInClass) for more information on how to set up your course using Kaggle. Using Kaggle is **not** a requirement to make use of the labs. For example, here is one way to evaluate lab solutions without Kaggle:
 
-- Instructor prepares (but don't release) a testing dataset with the correspondent groundtruth prediction label file.
-- Students/teams develop models and compare them based on the accuracy on a validation set split from the given training set
-- Students/teams prepare a `result.lua` lua that executes as taking their model file and the dataset, and returns a model predictions in ".csv" format (details in lab document).
+- Instructor develops (but not release) a testing dataset with the corresponding groundtruth prediction label file
+- Students/teams develop models and compare them based on inference accuracy on a validation subset from a given training set (i.e. MNIST)
+- Students/teams develop a `result.lua` file that takes in their model file and the dataset, and returns a model prediction in `.csv` format (see details in lab documents)
 - Students/teams submit both their most accurate model and `result.lua` scripts
-- Instructor execute the `result.lua` for each student/team's submitted model on the unreleased testing dataset
+- Instructor executes the `result.lua` for each student/team's submitted model on the unreleased testing dataset
 - Compare the model prediction and groudtruth label on the testing set, and obtain the accuracy
-- Use the testing accuracy as the measurement to student/team's model performance.
+- Use the testing accuracy to evaluate/compare students'/teams' model performanc
 
 #### Lab solutions
 `solution_code` in each lab directory contains an example implementation of approaches that improve the model performance. These solutions were developed by real students who took the Deep Learning curriculum course at NYU. Some solutions may require additional, undocumented instructions to properly execute. 

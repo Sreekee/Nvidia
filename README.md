@@ -55,7 +55,7 @@ Please read the Kaggle In Class [FAQ](https://www.kaggle.com/wiki/KaggleInClass)
 
 #### GIT basics
 
-As an example, to clone the labs/solutions on your machine and access Lab1:
+To clone the Labs/solutions on your machine and, for example, access Lab1:
 ```
     git clone git@bitbucket.org:junbo_jake_zhao/deeplearningkit.git
     cd Lab1

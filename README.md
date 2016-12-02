@@ -42,12 +42,13 @@ Some programming labs include optimizing a neural network training model and sug
 
 Please read the Kaggle In Class [FAQ](https://www.kaggle.com/wiki/KaggleInClass) for more information on how to set up your course using Kaggle. Using Kaggle is **not** a requirement to make use of the labs. For example, here is one way to evaluate lab solutions without Kaggle:
 
-- Give students/teams a randomly ordered test dataset file
-- Create (but don't release) a groundtruth label file
-- Students/teams develop and optimize training models based on inference results against the test dataset running their own `result.lua` (see lab .pdfs for more details on this file).
-- Students/teams submit both their most accurate model and their `result.lua` files with write-up instructions
-- Count the number of inconsistent labels from the model predictions and the groudtruth file to calculate the accuracy
-- Compare accuracy against the their test dataset accuracy and evaluate accordingly
+- Instructor prepares (but don't release) a testing dataset with the correspondent groundtruth prediction label file.
+- Students/teams develop models and compare them based on the accuracy on a validation set split from the given training set
+- Students/teams prepare a `result.lua` lua that executes as taking their model file and the dataset, and returns a model predictions in ".csv" format (details in lab document).
+- Students/teams submit both their most accurate model and `result.lua` scripts
+- Instructor execute the `result.lua` for each student/team's submitted model on the unreleased testing dataset
+- Compare the model prediction and groudtruth label on the testing set, and obtain the accuracy
+- Use the testing accuracy as the measurement to student/team's model performance.
 
 #### Lab solutions
 `solution_code` in each lab directory contains an example implementation of approaches that improve the model performance. These solutions were developed by real students who took the Deep Learning curriculum course at NYU. Some solutions may require additional, undocumented instructions to properly execute. 

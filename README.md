@@ -32,7 +32,7 @@ To install cuDNN and use cuDNN with Torch, please follow the README on the [cuDN
 ## About the Labs/solutions
 
 #### Lab documents
-`documents` in each lab directory contains the same lab description and sample solution `.pdf` documents in the Teaching Kit `.zip` package downloadable from the [GPU Educators Program portal](https://developer.nvidia.com/educators).
+`documents` in each lab directory contains the same lab description and sample solution writeups `.pdf` documents in the Teaching Kit `.zip` package downloadable from the [GPU Educators Program portal](https://developer.nvidia.com/educators).
 
 #### Baseline sample code
 `sample_code` in each each lab directory contains the baseline training model solution (as well as instructions to run) described in the lab descriptions. These baseline models render a baseline score for the given dataset that students are suggested to outperform. The `sample_code` is designed to be given to students when the lab is assigned.
@@ -43,7 +43,7 @@ Some programming labs include optimizing a neural network training model and sug
 Please read the Kaggle In Class [FAQ](https://www.kaggle.com/wiki/KaggleInClass) for more information on how to set up your course using Kaggle. Using Kaggle is **not** a requirement to make use of the labs.
 
 #### Lab solutions
-`solution_code` in each lab directory contains 1-2 example implementations of approaches that improve the model performance. These solutions were developed by real students who took the Deep Learning curriculum course at NYU. Some solutions may require additional, undocumented instructions to properly execute, and may not run perfectly “out-of-box”. Still, they should be useful examples of successful solutions using a variety of techniques for both instructors and students to learn from.
+`solution_code` in each lab directory contains an example implementation of approaches that improve the model performance. These solutions were developed by real students who took the Deep Learning curriculum course at NYU. Some solutions may require additional, undocumented instructions to properly execute, and may not run perfectly “out-of-box”. Still, they should be useful examples of successful solutions using a variety of techniques for both instructors and students to learn from. Note that the sample solution code corresponds to the 1st (`labN_**1.pdf`) solution writeup for each lab. These writeups are found in both the Teaching Kit `.zip` package downloadable from the [GPU Educators Program portal](https://developer.nvidia.com/educators) and the `documents` folder in each lab directory in this repository.
 
 #### Recommended prerequisite lectures for each lab
 * Lab1: Module 1 - Introduction to Machine Learning through Module 2 - Introduction to Deep Learning

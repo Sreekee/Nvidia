@@ -34,16 +34,9 @@ To install cuDNN and use cuDNN with Torch, please follow the README on the [cuDN
 
 ## About the labs and solutions
 
-#### Recommended release time of the labs
-* Lab1: finishing at least slides module 1-prepare and 2-dl-basics
-* Lab2: finishing slides module 3-convnets
-* Lab3: finishing slides module 4-energy-based-learning and 5-optimization
-* Lab4: finishing slides module 6-learning-with-memory.
-
-
 #### Lab design logic
-- **lab assignment desciption and solution write-up samples**
-Under the `documents` folder under each lab folder, the lab assignment description document is available as `lab*_doc.pdf` file. The sample solution write-up is also provided within the same folder.
+- **lab description and solution samples**
+The `documents` folder in each lab directory contains the same lab description and sample solution `.pdf` documents contained in the Teaching Kit `.zip` package downloadable from the GPU Educators Program [portal](https://developer.nvidia.com/educators).
 
 - **baseline quickstart `sample_code`**    
 We provide a baseline solution `sample_code` with each lab assignment. The specific running instruction is available under each `sample_code` folder. Training such model renders a baseline score to the given dataset that students are required to outperform. The `sample_code` is supposed to be released along with each lab assignment.
@@ -56,6 +49,12 @@ The in-class competition is used to encourage students read and practice more on
 - **Some exemplar approaches implementation in `solution_code` **   
 At last, we encourage the instructor to relase the folder `solution_code` after the assignment (and its in-class compititon) is due. 
 The `solution_code` folder is aimed to provide several exemplar implementation of some potential approaches that possibly improve the model performance. Due to the variaty of methods available, release these code is only on a purpose to provide certain insight to the student, but not to do a hands-on quickstart. (**TODO**)
+
+#### Recommended release time of the labs
+* Lab1: finishing at least slides module 1-prepare and 2-dl-basics
+* Lab2: finishing slides module 3-convnets
+* Lab3: finishing slides module 4-energy-based-learning and 5-optimization
+* Lab4: finishing slides module 6-learning-with-memory.
 
 ## Compiling and running lab solutions
 

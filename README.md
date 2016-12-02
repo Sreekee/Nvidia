@@ -42,6 +42,12 @@ Some programming labs include optimizing a neural network training model and sug
 
 Please read the Kaggle In Class [FAQ](https://www.kaggle.com/wiki/KaggleInClass) for more information on how to set up your course using Kaggle. Using Kaggle is **not** a requirement to make use of the labs.
 
+A normal recipe for setting up a competition for each lab is:
+- Prepare a shuffled order testing set and release it to students.
+- Alongside the testing set sample file, prepare but not to release a groundtruth label file
+- Collect the best trained model from each student/team, and do the inferencing by running the `result.lua` students ought to submit (see lab document for more details about the file)
+- Post the score obtained from the accuracy on the testing set.
+
 #### Lab solutions
 `solution_code` in each lab directory contains an example implementation of approaches that improve the model performance. These solutions were developed by real students who took the Deep Learning curriculum course at NYU. Some solutions may require additional, undocumented instructions to properly execute. 
 Unlike the `sample_code`, the set of code in the `solution_code` isn't designed to be running "out-of-box"; instead it contains useful examples of successful solutions using a variety of techniques for both instructors and students to learn from.

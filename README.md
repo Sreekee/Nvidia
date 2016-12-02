@@ -44,7 +44,7 @@ Please read the Kaggle In Class [FAQ](https://www.kaggle.com/wiki/KaggleInClass)
 
 - Give students/teams a randomly ordered test dataset file
 - Create (but don't release) a groundtruth label file
-- Students/teams develop and optimize training models based on inference results against the test dataset running their own `result.lua` (see lab `.pdfs' for more details on this file).
+- Students/teams develop and optimize training models based on inference results against the test dataset running their own `result.lua` (see lab .pdfs for more details on this file).
 - Students/teams submit both their most accurate model and their `result.lua` files with write-up instructions
 - Compare accuracy against the test dataset and evaluate accordingly
 

@@ -47,9 +47,9 @@ Please read the Kaggle In Class [FAQ](https://www.kaggle.com/wiki/KaggleInClass)
 
 #### Recommended prerequisite lectures for each lab
 * Lab1: Module 1 - Introduction to Machine Learning through Module 2 - Introduction to Deep Learning
-* Lab2: Module 1 - Introduction to Machine Learning through Module 3 - Convolutional Neural Networks
-* Lab3: Module 1 - Introduction to Machine Learning through Module 5 - Optimization Techniques
-* Lab4: Module 1 - Introduction to Machine Learning through Module 6 - Learning with Memory
+* Lab2: Module 1 through Module 3 - Convolutional Neural Networks
+* Lab3: Module 1 through Module 5 - Optimization Techniques
+* Lab4: Module 1 through Module 6 - Learning with Memory
 
 ## Compiling and Running Lab Solutions
 

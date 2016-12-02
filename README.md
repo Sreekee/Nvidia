@@ -34,12 +34,11 @@ To install cuDNN and use cuDNN with Torch, please follow the README on the [cuDN
 
 ## About the labs and solutions
 
-#### Lab design logic
-- **lab description and solution samples**
+#### Lab descriptions and sample solutions
 The `documents` folder in each lab directory contains the same lab description and sample solution `.pdf` documents contained in the Teaching Kit `.zip` package downloadable from the GPU Educators Program [portal](https://developer.nvidia.com/educators).
 
-- **baseline quickstart `sample_code`**    
-We provide a baseline solution `sample_code` with each lab assignment. The specific running instruction is available under each `sample_code` folder. Training such model renders a baseline score to the given dataset that students are required to outperform. The `sample_code` is supposed to be released along with each lab assignment.
+#### `sample_code`
+`sample_code` in each each lab directory contains the baseline training model solution (as well as instructions to run) described in the lab descriptions. These baseline models render a baseline score for the given dataset that students are required to outperform. The `sample_code` is designed to be given to students when the lab is assigned.
 
 - **In-class competition**    
 It is highly suggested to organize an in-class competition for each lab assignment: student may grab knowledge of on-going cutting-edge research papers or tech-reports to improve the model performance.

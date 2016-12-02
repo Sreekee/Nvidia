@@ -29,7 +29,7 @@ The NVIDIA CUDA Deep Neural Network library (cuDNN) is a GPU-accelerated library
 
 To install cuDNN and use cuDNN with Torch, please follow the README on the [cuDNN torch bindings](https://github.com/soumith/cudnn.torch) project.
 
-## About the labs and solutions
+## About the Labs/solutions
 
 #### `documents`
 `documents` in each lab directory contains the same lab description and sample solution `.pdf` documents in the Teaching Kit `.zip` package downloadable from the [GPU Educators Program portal](https://developer.nvidia.com/educators).

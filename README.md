@@ -46,7 +46,8 @@ Please read the Kaggle In Class [FAQ](https://www.kaggle.com/wiki/KaggleInClass)
 - Create (but don't release) a groundtruth label file
 - Students/teams develop and optimize training models based on inference results against the test dataset running their own `result.lua` (see lab .pdfs for more details on this file).
 - Students/teams submit both their most accurate model and their `result.lua` files with write-up instructions
-- Compare accuracy against the test dataset and evaluate accordingly
+- Count the number of inconsistent labels from the model predictions and the groudtruth file to calculate the accuracy
+- Compare accuracy against the their test dataset accuracy and evaluate accordingly
 
 #### Lab solutions
 `solution_code` in each lab directory contains an example implementation of approaches that improve the model performance. These solutions were developed by real students who took the Deep Learning curriculum course at NYU. Some solutions may require additional, undocumented instructions to properly execute. 

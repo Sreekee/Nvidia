@@ -32,21 +32,20 @@ To install cuDNN and use cuDNN with Torch, please follow the README on the [cuDN
 ## About the Labs/solutions
 
 #### Lab documents
-`documents` in each lab directory contains the same lab description and sample solution write-ups `.pdf` documents in the Teaching Kit `.zip` package downloadable from the [GPU Educators Program portal](https://developer.nvidia.com/educators).
+`documents` in each lab directory contains the same lab description and sample solution write-up `.pdf` documents in the Teaching Kit `.zip` package downloadable from the [GPU Educators Program portal](https://developer.nvidia.com/educators).
 
 #### Baseline sample code
 `sample_code` in each each lab directory contains the baseline training model solution (as well as instructions to run) described in the lab descriptions. These baseline models render a baseline score for the given dataset that students are suggested to outperform. The `sample_code` is designed to be given to students when the lab is assigned.
 
 #### In-class competition    
-Some programming labs include optimizing a neural network training model and suggest students submit solutions to Kaggle using [Kaggle In Class](https://inclass.kaggle.com/) to compare performance against each other and against the baseline model score from the `sample_code`. Such a competition can encourage students to study the latest public research papers and technical reports to improve their model performance on an open-ended problem. Grading model performance could simply be based on whether they outperform the baseline, or perhaps based on class rank.
+Some programming labs include optimizing a neural network training model and suggest students submit solutions to Kaggle using [Kaggle In Class](https://inclass.kaggle.com/) to compare inference accuracy against each other and against the baseline model score from the `sample_code`. Such a competition can encourage students to study the latest public research papers and technical reports to improve their model accuracy on an open-ended problem. Grading model accuracy could simply be based on whether they outperform the baseline, or perhaps based on class rank.
 
-Please read the Kaggle In Class [FAQ](https://www.kaggle.com/wiki/KaggleInClass) for more information on how to set up your course using Kaggle. Using Kaggle is **not** a requirement to make use of the labs.
-
-A normal recipe for setting up a competition for each lab is:
-- Prepare a shuffled order testing set and release it to students.
-- Alongside the testing set sample file, prepare but not to release a groundtruth label file
-- Collect the best trained model from each student/team, and do the inferencing by running the `result.lua` students ought to submit (see lab document for more details about the file)
-- Post the score obtained from the accuracy on the testing set.
+Please read the Kaggle In Class [FAQ](https://www.kaggle.com/wiki/KaggleInClass) for more information on how to set up your course using Kaggle. Using Kaggle is **not** a requirement to make use of the labs. For example, here is one way to evaluate labs solutions without Kaggle:
+* Give students/teams a randomly ordered test dataset file
+* Create (but don't release) a groundtruth label file
+* Students/teams develop and optimize training models based on inference results against the test dataset running their own `result.lua` (see lab `.pdfs' for more details on this file).
+* Students/teams submit both their most accurate model and their `result.lua` files with write-up instructions
+* Compare accuracy against the test dataset and evaluate accordingly
 
 #### Lab solutions
 `solution_code` in each lab directory contains an example implementation of approaches that improve the model performance. These solutions were developed by real students who took the Deep Learning curriculum course at NYU. Some solutions may require additional, undocumented instructions to properly execute. 

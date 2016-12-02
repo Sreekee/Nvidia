@@ -41,11 +41,11 @@ To install cuDNN and use cuDNN with Torch, please follow the README on the [cuDN
 Some programming labs include optimizing a neural network training model and suggest students submit solutions to Kaggle using [Kaggle In Class](https://inclass.kaggle.com/) to compare inference accuracy against each other and against the baseline model score from the `sample_code`. Such a competition can encourage students to study the latest public research papers and technical reports to improve their model accuracy on an open-ended problem. Grading model accuracy could simply be based on whether they outperform the baseline, or perhaps based on class rank.
 
 Please read the Kaggle In Class [FAQ](https://www.kaggle.com/wiki/KaggleInClass) for more information on how to set up your course using Kaggle. Using Kaggle is **not** a requirement to make use of the labs. For example, here is one way to evaluate labs solutions without Kaggle:
-* Give students/teams a randomly ordered test dataset file
-* Create (but don't release) a groundtruth label file
-* Students/teams develop and optimize training models based on inference results against the test dataset running their own `result.lua` (see lab `.pdfs' for more details on this file).
-* Students/teams submit both their most accurate model and their `result.lua` files with write-up instructions
-* Compare accuracy against the test dataset and evaluate accordingly
+- Give students/teams a randomly ordered test dataset file
+- Create (but don't release) a groundtruth label file
+- Students/teams develop and optimize training models based on inference results against the test dataset running their own `result.lua` (see lab `.pdfs' for more details on this file).
+- Students/teams submit both their most accurate model and their `result.lua` files with write-up instructions
+- Compare accuracy against the test dataset and evaluate accordingly
 
 #### Lab solutions
 `solution_code` in each lab directory contains an example implementation of approaches that improve the model performance. These solutions were developed by real students who took the Deep Learning curriculum course at NYU. Some solutions may require additional, undocumented instructions to properly execute. 

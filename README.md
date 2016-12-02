@@ -43,7 +43,10 @@ Some programming labs include optimizing a neural network training model and sug
 Please read the Kaggle In Class [FAQ](https://www.kaggle.com/wiki/KaggleInClass) for more information on how to set up your course using Kaggle. Using Kaggle is **not** a requirement to make use of the labs.
 
 #### Lab solutions
-`solution_code` in each lab directory contains an example implementation of approaches that improve the model performance. These solutions were developed by real students who took the Deep Learning curriculum course at NYU. Some solutions may require additional, undocumented instructions to properly execute, and may not run perfectly “out-of-box”. Still, they should be useful examples of successful solutions using a variety of techniques for both instructors and students to learn from. Note that the sample solution code corresponds to the 1st (`labN_**1.pdf`) solution writeup for each lab. These writeups are found in both the Teaching Kit `.zip` package downloadable from the [GPU Educators Program portal](https://developer.nvidia.com/educators) and the `documents` folder in each lab directory in this repository.
+`solution_code` in each lab directory contains an example implementation of approaches that improve the model performance. These solutions were developed by real students who took the Deep Learning curriculum course at NYU. Some solutions may require additional, undocumented instructions to properly execute. 
+Unlike the `sample_code`, the set of code in the `solution_code` isn't designed to be running "out-of-box"; instead it contains useful examples of successful solutions using a variety of techniques for both instructors and students to learn from.
+However, the software structure remains the same as `sample_code` such that the same executation script showd in `sample_code` also applies here to run the `solution_code`.
+Note that the sample solution code corresponds to the 1st (`labN_**1.pdf`) solution writeup for each lab. These writeups are found in both the Teaching Kit `.zip` package downloadable from the [GPU Educators Program portal](https://developer.nvidia.com/educators) and the `documents` folder in each lab directory in this repository.
 
 #### Recommended prerequisite lectures for each lab
 * Lab1: Module 1 - Introduction to Machine Learning through Module 2 - Introduction to Deep Learning

@@ -51,7 +51,7 @@ Please read the Kaggle In Class [FAQ](https://www.kaggle.com/wiki/KaggleInClass)
 * Lab3: Module 1 - Introduction to Machine Learning through Module 5 - Optimization Techniques
 * Lab4: Module 1 - Introduction to Machine Learning through Module 6 - Learning with Memory
 
-## Compiling and running lab solutions
+## Compiling and Running Lab Solutions
 
 #### GIT basics
 

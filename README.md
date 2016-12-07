@@ -49,7 +49,7 @@ Unlike the `sample_code`, the solution samples are not designed to run "out-of-b
 However, the software structure remains the same as `sample_code` and uses the same execution script in the `sample_code` `Readme`s to run. 
 Note that for each lab, the sample solution code corresponds to only the 1st "lab*n*_*labName*_solution1.pdf" solution write-up. These solution write-ups are found in both the Teaching Kit `.zip` package downloadable from the [GPU Educators Program portal](https://developer.nvidia.com/educators) and the `documents` folder in each lab directory in this repository.
 
-#### Cloning and Accessing the Labs/solutions
+#### Cloning and accessing the labs/solutions
 
 To clone the Labs/solutions on your machine and, for example, access Lab1:
 ```

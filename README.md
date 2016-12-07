@@ -37,6 +37,12 @@ To install cuDNN and use cuDNN with Torch, please follow the README on the [cuDN
 #### Baseline sample code
 `sample_code` in each each lab directory contains the baseline training model solution (as well as instructions to run) described in the lab descriptions. These baseline models render a baseline score for the given dataset that students are suggested to outperform. The `sample_code` is designed to be given to students when the lab is assigned.
 
+#### Lab solutions
+`solution_code` in each lab directory contains an example implementation of approaches that improve the model performance. These solutions were developed by real students who took the Deep Learning curriculum course at NYU. Some solutions may require additional, undocumented instructions to properly execute. 
+Unlike the `sample_code`, the solution samples are not designed to run "out-of-box", but should still provide useful examples of solutions using a variety of techniques for both instructors and students to learn from.
+However, the software structure remains the same as `sample_code` and uses the same execution script in the `sample_code` `Readme`s to run. 
+Note that for each lab, the sample solution code corresponds to only the 1st "lab*n*_*labName*_solution1.pdf" solution write-up. These solution write-ups are found in both the Teaching Kit `.zip` package downloadable from the [GPU Educators Program portal](https://developer.nvidia.com/educators) and the `documents` folder in each lab directory in this repository.
+
 #### In-class competition    
 Some programming labs include optimizing a neural network training model and suggest students submit solutions to Kaggle using [Kaggle In Class](https://inclass.kaggle.com/) to compare inference accuracy against each other and against the baseline model score from the `sample_code`. Such a competition can encourage students to study the latest public research papers and technical reports to improve their model accuracy on an open-ended problem. Grading model accuracy could simply be based on whether they outperform the baseline, or perhaps based on class rank.
 
@@ -49,12 +55,6 @@ Please read the Kaggle In Class [FAQ](https://www.kaggle.com/wiki/KaggleInClass)
 - Instructor executes the `result.lua` for each student/team's submitted model on the unreleased testing dataset
 - Compare the model prediction and groudtruth label on the testing set, and obtain the accuracy
 - Use the testing accuracy to evaluate/compare students'/teams' model performance
-
-#### Lab solutions
-`solution_code` in each lab directory contains an example implementation of approaches that improve the model performance. These solutions were developed by real students who took the Deep Learning curriculum course at NYU. Some solutions may require additional, undocumented instructions to properly execute. 
-Unlike the `sample_code`, the solution samples are not designed to run "out-of-box", but should still provide useful examples of solutions using a variety of techniques for both instructors and students to learn from.
-However, the software structure remains the same as `sample_code` and uses the same execution script in the `sample_code` `Readme`s to run. 
-Note that for each lab, the sample solution code corresponds to only the 1st "lab*n*_*labName*_solution1.pdf" solution write-up. These solution write-ups are found in both the Teaching Kit `.zip` package downloadable from the [GPU Educators Program portal](https://developer.nvidia.com/educators) and the `documents` folder in each lab directory in this repository.
 
 #### Recommended prerequisite lectures for each lab
 * Lab1: Module 1 - Introduction to Machine Learning through Module 2 - Introduction to Deep Learning

@@ -63,7 +63,7 @@ Some programming labs include optimizing a neural network training model and sug
 Please read the Kaggle In Class [FAQ](https://www.kaggle.com/wiki/KaggleInClass) for more information on how to set up your course using Kaggle. Using Kaggle is **not** a requirement to make use of the labs. For example, here is one way to evaluate lab solutions without Kaggle:
 
 - Instructor develops (but not release) a testing dataset with the corresponding groundtruth prediction label file
-- Students/teams develop models and compare them based on inference accuracy on a validation subset from a given training set (i.e. MNIST)
+- Students/teams develop models and compare model inference accuracy on a validation subset from a given training set (i.e. MNIST)
 - Students/teams develop a `result.lua` file that takes in their model file and the dataset, and returns a model prediction in `.csv` format (see details in lab documents)
 - Students/teams submit both their most accurate model and `result.lua` scripts
 - Instructor executes the `result.lua` for each student/team's submitted model on the unreleased testing dataset

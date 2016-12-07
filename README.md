@@ -52,8 +52,8 @@ Please read the Kaggle In Class [FAQ](https://www.kaggle.com/wiki/KaggleInClass)
 
 #### Lab solutions
 `solution_code` in each lab directory contains an example implementation of approaches that improve the model performance. These solutions were developed by real students who took the Deep Learning curriculum course at NYU. Some solutions may require additional, undocumented instructions to properly execute. 
-Unlike the `sample_code`, the set of code in the `solution_code` isn't designed to be running "out-of-box"; instead it contains useful examples of successful solutions using a variety of techniques for both instructors and students to learn from.
-However, the software structure remains the same as `sample_code` such that the same executation script showd in `sample_code` also applies here to run the `solution_code`.
+Unlike the `sample_code`, the solution samples are not designed to run "out-of-box", but should still provide useful examples of solutions using a variety of techniques for both instructors and students to learn from.
+However, the software structure remains the same as `sample_code` and uses the same execution script in the `sample_code` `Readme`s to run. 
 Note that for each lab, the sample solution code corresponds to only the 1st "lab*n*_*labName*_solution1.pdf" solution write-up. These solution write-ups are found in both the Teaching Kit `.zip` package downloadable from the [GPU Educators Program portal](https://developer.nvidia.com/educators) and the `documents` folder in each lab directory in this repository.
 
 #### Recommended prerequisite lectures for each lab

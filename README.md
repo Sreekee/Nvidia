@@ -31,6 +31,12 @@ To install cuDNN and use cuDNN with Torch, please follow the README on the [cuDN
 
 ## About the Labs/solutions
 
+#### Recommended prerequisite Teaching Kit lectures for each lab
+* Lab1: Module 1 - Introduction to Machine Learning through Module 2 - Introduction to Deep Learning
+* Lab2: Module 1 through Module 3 - Convolutional Neural Networks
+* Lab3: Module 1 through Module 5 - Optimization Techniques
+* Lab4: Module 1 through Module 6 - Learning with Memory
+
 #### Lab documents
 `documents` in each lab directory contains the same lab description and sample solution write-up `.pdf` documents in the Teaching Kit `.zip` package downloadable from the [GPU Educators Program portal](https://developer.nvidia.com/educators).
 
@@ -42,6 +48,14 @@ To install cuDNN and use cuDNN with Torch, please follow the README on the [cuDN
 Unlike the `sample_code`, the solution samples are not designed to run "out-of-box", but should still provide useful examples of solutions using a variety of techniques for both instructors and students to learn from.
 However, the software structure remains the same as `sample_code` and uses the same execution script in the `sample_code` `Readme`s to run. 
 Note that for each lab, the sample solution code corresponds to only the 1st "lab*n*_*labName*_solution1.pdf" solution write-up. These solution write-ups are found in both the Teaching Kit `.zip` package downloadable from the [GPU Educators Program portal](https://developer.nvidia.com/educators) and the `documents` folder in each lab directory in this repository.
+
+#### Cloning and Accessing the Labs/solutions
+
+To clone the Labs/solutions on your machine and, for example, access Lab1:
+```
+    git clone git@bitbucket.org:junbo_jake_zhao/deeplearningkit.git
+    cd Lab1
+```
 
 #### In-class competition    
 Some programming labs include optimizing a neural network training model and suggest students submit solutions to Kaggle using [Kaggle In Class](https://inclass.kaggle.com/) to compare inference accuracy against each other and against the baseline model score from the `sample_code`. Such a competition can encourage students to study the latest public research papers and technical reports to improve their model accuracy on an open-ended problem. Grading model accuracy could simply be based on whether they outperform the baseline, or perhaps based on class rank.
@@ -55,17 +69,3 @@ Please read the Kaggle In Class [FAQ](https://www.kaggle.com/wiki/KaggleInClass)
 - Instructor executes the `result.lua` for each student/team's submitted model on the unreleased testing dataset
 - Compare the model prediction and groudtruth label on the testing set, and obtain the accuracy
 - Use the testing accuracy to evaluate/compare students'/teams' model performance
-
-#### Recommended prerequisite lectures for each lab
-* Lab1: Module 1 - Introduction to Machine Learning through Module 2 - Introduction to Deep Learning
-* Lab2: Module 1 through Module 3 - Convolutional Neural Networks
-* Lab3: Module 1 through Module 5 - Optimization Techniques
-* Lab4: Module 1 through Module 6 - Learning with Memory
-
-## Cloning and Accessing the Labs/solutions
-
-To clone the Labs/solutions on your machine and, for example, access Lab1:
-```
-    git clone git@bitbucket.org:junbo_jake_zhao/deeplearningkit.git
-    cd Lab1
-```

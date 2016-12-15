@@ -69,3 +69,18 @@ Please read the Kaggle In Class [FAQ](https://www.kaggle.com/wiki/KaggleInClass)
 - Instructor executes the `result.lua` for each student/team's submitted model on the unreleased testing dataset
 - Compare the model prediction and groudtruth label on the testing set, and obtain the accuracy
 - Use the testing accuracy to evaluate/compare students'/teams' model performance
+
+## NVIDIA qwikLABS
+
+As part of the Deep Learning Teaching Kit, you have free access to [qwikLABS](nvidia.qwiklab.com), a supplemental and complementary learning resource. qwikLABS is a live, hands-on, self-paced learning environment. Each lab includes a set of interactive instructions to walk students through a specific concept. As these labs are hosted in the cloud, a student only needs a web-browser and internet access.
+
+If you are interested in using these labs, please create an account at [nvidia.qwiklab.com](nvidia.qwiklab.com) and send your qwikLAB account email address to [educators@nvidia.com](educators@nvidia.com) with the subject line “GPU Teaching Kit qwikLAB Access”. Instructions will then follow for giving access to your students.
+
+The NVIDIA Deep Learning qwikLABS include:
+ 
+- Introduction to Deep Learning
+- Approaches to Object Detection using DIGITS
+- Getting Started with Deep Learning
+- Signal Processing using DIGITS
+
+More detailed descriptions about the DL qwikLABS can be found [here](https://nvidia.qwiklab.com/tags/Deep%20Learning) in the catalogue. To see a list of ALL available labs please go to [catalog](https://nvidia.qwiklab.com/catalog) and click on the Labs tab.

@@ -83,4 +83,4 @@ The NVIDIA Deep Learning qwikLABS include:
 
 More detailed descriptions of the DL qwikLABS can be found [here](https://nvidia.qwiklab.com/tags/Deep%20Learning) in the catalogue. To see a list of ALL available labs please go to the [catalog](https://nvidia.qwiklab.com/catalog) and click on the "Labs" tab.
 
-If you are interested in using these labs, please create an account at [nvidia.qwiklab.com](https://nvidia.qwiklab.com) and send your qwikLAB account email address to [educators@nvidia.com](mailto:educators@nvidia.com) with the subject line “GPU Teaching Kit qwikLAB Access”. Instructions will then follow for giving access to your students.
+*If you are interested in using these labs, please create an account at [nvidia.qwiklab.com](https://nvidia.qwiklab.com) and send your qwikLAB account email address to [educators@nvidia.com](mailto:educators@nvidia.com) with the subject line “GPU Teaching Kit qwikLAB Access”. Instructions will then follow for giving access to your students.*

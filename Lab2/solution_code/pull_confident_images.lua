@@ -57,9 +57,6 @@ for n=1,extra:size(1) do
  
 end    
 
-
-
-
 -- loop through obs
 for i,s in ipairs(sets) do
     print('Setting up dataset of size '..s)

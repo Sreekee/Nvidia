@@ -31,7 +31,7 @@ PyTorch integrates cuDNN automatically. To install cuDNN and use cuDNN with Torc
 
 ## About the Labs/solutions
 
-#### Recommended prerequisite Teaching Kit lectures for each lab
+#### Recommended prerequisite DLI Teaching Kit lectures for each lab
 * Lab1: Module 1 - Introduction to Machine Learning through Module 2 - Introduction to Deep Learning
 * Lab2: Module 1 through Module 3 - Convolutional Neural Networks
 * Lab3: Module 1 through Module 5 - Optimization Techniques
@@ -74,17 +74,14 @@ Please read the Kaggle In Class [FAQ](https://www.kaggle.com/wiki/KaggleInClass)
 
 The DLI Teaching Kit includes access to free online DLI labs (“Qwiklabs”) using GPUs in the cloud - a value of up to $30 per person per lab. These online labs reinforce deep learning concepts presented in the Teaching Kit to students in a more applied manner. Each Qwiklab is a live, hands-on, self-paced learning environment that includes a set of interactive instructions to walk students through applied deep learning concepts. Students must complete each lab within the allotted time.
 
-`Syllabus.pdf` from the DLI Teaching Kit `.zip` suggests when in the course sequence to suggest students take specific DLI online labs.
+`Syllabus.pdf` from the DLI Teaching Kit `.zip` suggests when in the course sequence to suggest students take the following 3-lab sequence:
 
-The NVIDIA Deep Learning qwikLABS include:
- 
-- Introduction to Deep Learning
-- Approaches to Object Detection using DIGITS
-- Getting Started with Deep Learning
-- Signal Processing using DIGITS
+* Image Classification with NVIDIA DIGITS
+* Object Detection with NVIDIA DIGITS
+* Image Segmentation with TensorFlow
 
-More detailed descriptions of the DL qwikLABS can be found [here](https://nvidia.qwiklab.com/tags/Deep%20Learning) in the catalogue. To see a list of ALL available labs please go to the [catalog](https://nvidia.qwiklab.com/catalog) and click on the "Labs" tab.
+More DL labs and detailed descriptions can be found [here](https://nvidia.qwiklab.com/tags/Deep%20Learning) in the catalogue. To see a list of ALL available labs please go to the [catalog](https://nvidia.qwiklab.com/catalog) and click on the "Labs" tab.
 
-*To enable these labs for your students, please create an account at [nvidia.qwiklab.com] (https://nvidia.qwiklab.com) and send your Qwiklab account email address to [DeepLearningInstitute@nvidia.com](mailto: DeepLearningInstitute@nvidia.com) with the subject line “DLI Teaching Kit Qwiklab Access”. Email instructions will then follow for giving access to your students.*
+*To enable these labs for your students, please create an account [here] (https://nvidia.qwiklab.com) and send your Qwiklab account email address to [DeepLearningInstitute@nvidia.com](mailto: DeepLearningInstitute@nvidia.com) with the subject line “DLI Teaching Kit Qwiklab Access”. Email instructions will then follow for giving access to your students.*
 
 Please see `Online DLI Labs.pdf` from the DLI Teaching Kit `.zip` for more details.

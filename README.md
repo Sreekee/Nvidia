@@ -93,10 +93,10 @@ Through self-paced online labs and instructor-led workshops, DLI provides traini
 
 Instructors and teaching assistants (TAs) are encouraged to become official DLI Instructor/TA certified by NVIDIA by following instructions [here] (https://docs.google.com/presentation/d/1eMttmzVIalaXtItGgBwFSu_vulhS0UYHfzr-6HUxBJU/edit#slide=id.g1c355070ad_0_81)!
 
-**Start a Deep Learning Project**
+#### Start a Deep Learning Project
 Explore three simple steps to kick off your deep learning initiative for a solo project, a small team, or at scale: www.nvidia.com/deeplearning/developer.
 
-**Keep Learning with DLI**
+#### Keep Learning with DLI
 Check out upcoming workshops in your area at www.nvidia.com/dli. 
 
 Request an onsite workshop for your team at www.nvidia.com/requestdli.

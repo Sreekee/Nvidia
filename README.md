@@ -82,6 +82,6 @@ The DLI Teaching Kit includes access to free online DLI labs (“Qwiklabs”) us
 
 More DL labs and detailed descriptions can be found [here](https://nvidia.qwiklab.com/tags/Deep%20Learning) in the catalogue. To see a list of ALL available labs please go to the [catalog](https://nvidia.qwiklab.com/catalog) and click on the "Labs" tab.
 
-*To enable these labs for your students, please create an account [here] (https://nvidia.qwiklab.com) and send your Qwiklab account email address to [DeepLearningInstitute@nvidia.com](mailto: DeepLearningInstitute@nvidia.com) with the subject line “DLI Teaching Kit Qwiklab Access”. Email instructions will then follow for giving access to your students.*
+*To enable these labs for your students, please create an account at (https://nvidia.qwiklab.com) and send your Qwiklab account email address to [DeepLearningInstitute@nvidia.com](mailto: DeepLearningInstitute@nvidia.com) with the subject line “DLI Teaching Kit Qwiklab Access”. Email instructions will then follow for giving access to your students.*
 
 Please see `Online DLI Labs.pdf` from the DLI Teaching Kit `.zip` for more details.

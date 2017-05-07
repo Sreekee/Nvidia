@@ -21,7 +21,7 @@ CUDA and the associated libraries should be installed prior to any deep learning
 
 #### PyTorch and Torch computing frameworks
     
-The DLI Teaching Kit labs and example solutions are based on the [PyTorch] (http://pytorch.org/) and [Torch](http://torch.ch) computing frameworks. Please refer to [Getting started with Torch](http://torch.ch/docs/getting-started.html) for instruction on Torch installation, examples and documentation.
+The DLI Teaching Kit labs and example solutions are based on the [PyTorch](http://pytorch.org/) and [Torch](http://torch.ch) computing frameworks. Please refer to [Getting started with Torch](http://torch.ch/docs/getting-started.html) for instruction on Torch installation, examples and documentation.
 
 For Windows users, please refer to [Running Torch on Windows](https://github.com/torch/torch7/wiki/Windows#using-a-virtual-machine). At the time of writing this, PyTorch does not run on Windows, but there's an ongoing thread [here](https://github.com/pytorch/pytorch/issues/494).
 

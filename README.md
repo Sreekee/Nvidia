@@ -86,7 +86,7 @@ More DL labs and detailed descriptions can be found [here](https://nvidia.qwikla
 
 Please see `Online DLI Labs.pdf` from the DLI Teaching Kit `.zip` for more details.
 
-#### About the NVIDIA Deep Learning Institute (DLI)
+## About the NVIDIA Deep Learning Institute (DLI)
 The NVIDIA DLI offers hands-on training for developers, data scientists, and researchers looking to solve challenging problems with deep learning.
 
 Through self-paced online labs and instructor-led workshops, DLI provides training on the latest techniques for designing, training, and deploying neural networks across a variety of application domains including self-driving cars, healthcare, robotics, finance, and video analytics.

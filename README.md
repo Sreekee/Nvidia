@@ -10,7 +10,7 @@ The labs are designed to be open-ended, multidisciplinary, one- to three-week pr
 
 Thanks to the rapid development of NVIDIA GPUs, training deep neural networks is more efficient than ever in terms of both time and resource cost. Training neural networks on [NVIDIA CUDA-enabled GPUs](https://developer.nvidia.com/cuda-gpus) is a practical necessity for the Teaching Kit labs, including both convolutional networks (Lab1 and Lab2) and recurrent networks (Lab4).
 
-The DLI Teaching Kit comes with codes worth up to $125 of Amazon Web Services (AWS) GPU compute credit for each student in your course to provide a GPU compute platform to work on the open-ended labs. To request a code for your students, please send an email to [DeepLearningInstitute@nvidia.com](mailto: DeepLearningInstitute@nvidia) with the subject line “DLI Teaching Kit AWS Access”. An Email will follow with your code and instructions for giving access to your students.
+*The DLI Teaching Kit comes with codes worth up to $125 of Amazon Web Services (AWS) GPU compute credit for each student in your course to provide a GPU compute platform* to work on the open-ended labs. To request a code for your students, please send an email to [DeepLearningInstitute@nvidia.com](mailto: DeepLearningInstitute@nvidia) with the subject line “DLI Teaching Kit AWS Access”. An Email will follow with your code and instructions for giving access to your students.
 
 The use of GPUs for the Teaching Kit labs requires a CUDA supported operating system, C compiler, and a recent CUDA Toolkit. The CUDA Toolkit can be downloaded
 from the [CUDA Download](https://developer.nvidia.com/cuda-downloads) page. Instructions on how to install the CUDA Toolkit are available in the

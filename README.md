@@ -94,7 +94,7 @@ The NVIDIA DLI offers hands-on training for developers, data scientists, and res
 Through self-paced online labs and instructor-led workshops, DLI provides training on the latest techniques for designing, training, and deploying neural networks across a variety of application domains including self-driving cars, healthcare, robotics, finance, and video analytics.
 
 #### Start a Deep Learning Project
-Explore three simple steps to kick off your deep learning initiative for a solo project, a small team, or at scale: www.nvidia.com/deeplearning/developer.
+Explore three simple steps to kick off your deep learning initiative for a solo project, a small team, or at scale: www.nvidia.com/deep-learning/developer.
 
 #### Keep Learning with DLI
 Check out upcoming workshops in your area at www.nvidia.com/dli. 

@@ -58,13 +58,14 @@ These perplexities are equal or better than
 and are similar to [Using the Output Embedding to Improve Language Models (Press & Wolf 2016](https://arxiv.org/abs/1608.05859) and [Tying Word Vectors and Word Classifiers: A Loss Framework for Language Modeling (Inan et al. 2016)](https://arxiv.org/pdf/1611.01462.pdf), though both of these papers have improved perplexities by using a form of recurrent dropout [(variational dropout)](http://papers.nips.cc/paper/6241-a-theoretically-grounded-application-of-dropout-in-recurrent-neural-networks).
 
 
-#### PyTorch installation via Anaconda
+#### Environment setup on AWS
+      # Note this script may only work and has only been tested on AWS GPU equipped node.
 
-      # Install Anaconda, see: https://docs.continuum.io/anaconda/install
+      # Step 1: create an AWS computing instance, and launch terminal (We might want to elaborate it with some figures, let's make it later)
 
-      # For instance, if you are using Linux, with Python 2.7:
+      # Step 2: install Anaconda, see: https://docs.continuum.io/anaconda/install
+      wget https://repo.continuum.io/archive/Anaconda2-4.3.1-Linux-x86_64.sh
       bash ~/Downloads/Anaconda2-4.3.1-Linux-x86_64.sh
 
-      # Install Pytorch, see: http://pytorch.org/
+      # Step 3: install Pytorch, see: http://pytorch.org/
       conda install pytorch torchvision cuda80 -c soumith
-     

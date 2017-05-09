@@ -25,13 +25,15 @@ python mnist_pytorch.py
 Note: The sample code is tested on MacOS system, CPU, torch 0.1.7, Python 2.7.13 |Anaconda 4.3.0
 
 
-#### PyTorch installation via Anaconda
+#### Environment setup on AWS
+      # Note this script may only work and has only been tested on AWS GPU equipped node.
 
-      # Install Anaconda, see: https://docs.continuum.io/anaconda/install
+      # Step 1: create an AWS computing instance, and launch terminal (We might want to elaborate it with some figures, let's make it later)
 
-      # For instance, if you are using Linux, with Python 2.7:
+      # Step 2: install Anaconda, see: https://docs.continuum.io/anaconda/install
+      wget https://repo.continuum.io/archive/Anaconda2-4.3.1-Linux-x86_64.sh
       bash ~/Downloads/Anaconda2-4.3.1-Linux-x86_64.sh
 
-      # Install Pytorch, see: http://pytorch.org/
+      # Step 3: install Pytorch, see: http://pytorch.org/
       conda install pytorch torchvision cuda80 -c soumith
      

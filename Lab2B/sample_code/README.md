@@ -23,3 +23,15 @@ python mnist_pytorch.py
 -Incoporate unlabeled data into this model. Try to implement some semi-supervised learning method.
 
 Note: The sample code is tested on MacOS system, CPU, torch 0.1.7, Python 2.7.13 |Anaconda 4.3.0
+
+
+#### PyTorch installation via Anaconda
+
+      # Install Anaconda, see: https://docs.continuum.io/anaconda/install
+
+      # For instance, if you are using Linux, with Python 2.7:
+      bash ~/Downloads/Anaconda2-4.3.1-Linux-x86_64.sh
+
+      # Install Pytorch, see: http://pytorch.org/
+      conda install pytorch torchvision cuda80 -c soumith
+     

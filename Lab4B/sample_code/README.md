@@ -56,3 +56,15 @@ python main.py --emsize 1500 --nhid 1500 --dropout 0.65 --epochs 40 --tied # Tes
 These perplexities are equal or better than
 [Recurrent Neural Network Regularization (Zaremba et al. 2014)](https://arxiv.org/pdf/1409.2329.pdf)
 and are similar to [Using the Output Embedding to Improve Language Models (Press & Wolf 2016](https://arxiv.org/abs/1608.05859) and [Tying Word Vectors and Word Classifiers: A Loss Framework for Language Modeling (Inan et al. 2016)](https://arxiv.org/pdf/1611.01462.pdf), though both of these papers have improved perplexities by using a form of recurrent dropout [(variational dropout)](http://papers.nips.cc/paper/6241-a-theoretically-grounded-application-of-dropout-in-recurrent-neural-networks).
+
+
+#### PyTorch installation via Anaconda
+
+      # Install Anaconda, see: https://docs.continuum.io/anaconda/install
+
+      # For instance, if you are using Linux, with Python 2.7:
+      bash ~/Downloads/Anaconda2-4.3.1-Linux-x86_64.sh
+
+      # Install Pytorch, see: http://pytorch.org/
+      conda install pytorch torchvision cuda80 -c soumith
+     

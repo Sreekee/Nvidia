@@ -30,12 +30,12 @@ Note: The sample code is tested on MacOS system, CPU, torch 0.1.7, Python 2.7.13
 
       # Step 1: create an AWS computing instance, and launch a terminal.
 
-      # Step 2: install Anaconda, see: [https://docs.continuum.io/anaconda/install](https://docs.continuum.io/anaconda/install) 
+      # Step 2: install Anaconda, see: https://docs.continuum.io/anaconda/install
       
             wget https://repo.continuum.io/archive/Anaconda2-4.3.1-Linux-x86_64.sh
             bash ~/Downloads/Anaconda2-4.3.1-Linux-x86_64.sh
 
-      # Step 3: install Pytorch, see: [http://pytorch.org/](http://pytorch.org/)
+      # Step 3: install Pytorch, see: http://pytorch.org/
 
             conda install pytorch torchvision cuda80 -c soumith
      

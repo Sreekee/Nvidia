@@ -1,1 +1,1 @@
-Coming soon!
+Solution documentation coming soon!

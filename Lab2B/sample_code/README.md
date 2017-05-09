@@ -1,6 +1,4 @@
-# ds-ga-1008-a1
-
-NYU course Spring 2017 Assignment 1
+# LAB 2B
 
 This sample code is modified from https://github.com/pytorch/examples/tree/master/mnist
 

@@ -59,13 +59,15 @@ and are similar to [Using the Output Embedding to Improve Language Models (Press
 
 
 #### Environment setup on AWS
-      # Note this script may only work and has only been tested on AWS GPU equipped node.
+      # Note the script has only been tested on AWS GPU equipped nodes, as this is the GPU resource provided in the DLI Teaching Kit.
 
-      # Step 1: create an AWS computing instance, and launch terminal (We might want to elaborate it with some figures, let's make it later)
+      # Step 1: create an AWS computing instance, and launch a terminal.
 
       # Step 2: install Anaconda, see: https://docs.continuum.io/anaconda/install
-      wget https://repo.continuum.io/archive/Anaconda2-4.3.1-Linux-x86_64.sh
-      bash ~/Downloads/Anaconda2-4.3.1-Linux-x86_64.sh
+      
+            wget https://repo.continuum.io/archive/Anaconda2-4.3.1-Linux-x86_64.sh
+            bash ~/Downloads/Anaconda2-4.3.1-Linux-x86_64.sh
 
       # Step 3: install Pytorch, see: http://pytorch.org/
-      conda install pytorch torchvision cuda80 -c soumith
+
+            conda install pytorch torchvision cuda80 -c soumith

@@ -30,12 +30,18 @@ Note: The sample code is tested on MacOS system, CPU, torch 0.1.7, Python 2.7.13
 
       Step 1: Create an AWS computing instance, and launch a terminal.
 
-      Step 2: Install Anaconda, see: https://docs.continuum.io/anaconda/install
-      
-            wget https://repo.continuum.io/archive/Anaconda2-4.3.1-Linux-x86_64.sh
-            bash ~/Downloads/Anaconda2-4.3.1-Linux-x86_64.sh
+      Step 2: Download and install CUDA
+        wget http://us.download.nvidia.com/tesla/375.51/nvidia-driver-local-repoubuntu1604_375.51-1_amd64.deb
+        sudo dpkg -i nvidia-driver-local-repo-ubuntu1604_375.51-1_amd64.deb
+        sudo apt-get update
+        sudo apt-get -y install cuda-drivers
 
-      Step 3: Install Pytorch, see: http://pytorch.org/
+      Step 3: reboot the node
 
-            conda install pytorch torchvision cuda80 -c soumith
+      Step 4: Install Anaconda, see: https://docs.continuum.io/anaconda/install
+        wget https://repo.continuum.io/archive/Anaconda2-4.3.1-Linux-x86_64.sh
+        bash ~/Downloads/Anaconda2-4.3.1-Linux-x86_64.sh
+
+      Step 5: Install Pytorch, see: http://pytorch.org/
+        conda install pytorch torchvision cuda80 -c soumith
      

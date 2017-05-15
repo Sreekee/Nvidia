@@ -10,7 +10,7 @@ The labs are designed to be open-ended, multidisciplinary, one- to three-week pr
 
 Thanks to the rapid development of NVIDIA GPUs, training deep neural networks is more efficient than ever in terms of both time and resource cost. Training neural networks on [NVIDIA CUDA-enabled GPUs](https://developer.nvidia.com/cuda-gpus) is a practical necessity for the Teaching Kit labs, including both convolutional networks (Lab1 and Lab2) and recurrent networks (Lab4).
 
-**The DLI Teaching Kit comes with codes worth up to $125 of Amazon Web Services (AWS) GPU compute credit for each student in your course to provide a GPU compute platform** to work on the open-ended labs. To request a code for your students, please send an email to [DeepLearningInstitute@nvidia.com](mailto: DeepLearningInstitute@nvidia) with the subject line “DLI Teaching Kit AWS Access”. An Email will follow with your code and instructions for giving access to your students.
+**The DLI Teaching Kit comes with codes worth up to $125 of Amazon Web Services (AWS) GPU compute credit for each student in your course, as well as $200 for yourself as the instructor, to provide a GPU compute platform** to work on the open-ended labs. To request a code for yourself and your students, please send an email to [DeepLearningInstitute@nvidia.com](mailto: DeepLearningInstitute@nvidia) with the subject line “DLI Teaching Kit AWS Access”. An Email will follow with your code and instructions for giving access to your students.
 
 The use of GPUs for the Teaching Kit labs requires a CUDA supported operating system, C compiler, and a recent CUDA Toolkit. The CUDA Toolkit can be downloaded
 from the [CUDA Download](https://developer.nvidia.com/cuda-downloads) page. Instructions on how to install the CUDA Toolkit are available in the
@@ -43,12 +43,12 @@ PyTorch integrates cuDNN automatically. To install cuDNN and use cuDNN with Torc
 `documents` in each lab directory contains the same lab description and sample solution write-up `.pdf` documents as in the DLI Teaching Kit `.zip` package.
 
 #### Baseline sample code
-`sample_code` in each each lab directory contains the baseline training model solution (as well as instructions to run) described in the lab descriptions. These baseline models render a baseline score for the given data set that students are suggested to outperform. The `sample_code` is designed to be given to students when the lab is assigned.
+`sample_code` in each each lab directory contains the baseline training model solution (as well as instructions to run) described in the lab descriptions. These baseline models render a baseline score for the given data set that students are suggested to outperform. The `sample_code` is designed to be given to students when the lab is assigned. *Basic instructions for setting up an AWS environment with the provided credits are included in this folder*
 
 #### Lab solutions
 `solution_code` in each lab directory contains an example implementation of approaches that improve the model performance. These solutions were developed by real students who took the Deep Learning curriculum course at NYU. Some solutions may require additional, undocumented instructions to properly execute. 
 Unlike the `sample_code`, some solution samples are not designed to run "out-of-box", but should still provide useful examples of solutions using a variety of techniques for both instructors and students to learn from.
-However, the software structure remains the same as `sample_code` and uses the same execution script in the `sample_code` `Readme`s to run. 
+However, the software structure remains the same as `sample_code` and uses the same execution script in the `sample_code` `Readme`s to run. *Basic instructions for setting up an AWS environment with the provided credits are included in this folder*
 Note that for each lab, the sample solution code corresponds to only the 1st "lab*n*_*labName*_solution1.pdf" solution write-up. These solution write-ups are found in both the Teaching Kit `.zip` package and the `documents` folder in each lab directory in this repository.
 
 #### Cloning and accessing the labs/solutions

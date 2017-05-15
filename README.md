@@ -2,7 +2,9 @@
 
 Welcome to the DLI Teaching Kit Lab/solution repository. The kit and associated labs are produced jointly by NVIDIA and New York University (NYU).  All material is available under the [Creative Commons Attribution-NonCommercial License](http://creativecommons.org/licenses/by-nc/4.0/).
 
-The labs are designed to be open-ended, multidisciplinary, one- to three-week programming and written assignments for students. Each lab contains a description, sample code, sample solutions and suggestions on how instructors can evaluate and have students submit solutions. 
+The labs are designed to be open-ended, multidisciplinary, one- to three-week programming and written assignments for students. Each lab contains a description, sample code, sample solutions and suggestions on how instructors can evaluate and have students submit solutions.
+
+**Note that we are currently in the 2nd release of this Teaching Kit. If you have never pulled any labs from this repo and/or are new to the DLI Teaching Kit, please pull from the "Rel2" branch. The new 2nd release labs are 2B, 3, and 4B. Labs 2 and 4 have two different versions (“A” and “B”) because they contain some overlapping concepts but use different problem/data sets. Labs 2B and 4B utilize the PyTorch frameworks. Lab 3 covers Generative Adversarial Networks. Labs 2A and 4A are the same as 1st release Labs 2 and 4. Please pull the 2nd release branch to a new location locally if you have pulled from the previous release.**
 
 ## System Requirements
 
@@ -48,7 +50,7 @@ PyTorch integrates cuDNN automatically. To install cuDNN and use cuDNN with Torc
 #### Lab solutions
 `solution_code` in each lab directory contains an example implementation of approaches that improve the model performance. These solutions were developed by real students who took the Deep Learning curriculum course at NYU. Some solutions may require additional, undocumented instructions to properly execute. 
 Unlike the `sample_code`, some solution samples are not designed to run "out-of-box", but should still provide useful examples of solutions using a variety of techniques for both instructors and students to learn from.
-However, the software structure remains the same as `sample_code` and uses the same execution script in the `sample_code` `Readme`s to run. *Basic instructions for setting up an AWS environment with the provided credits are included in this folder*
+However, the software structure remains the same as `sample_code` and uses the same execution script in the `sample_code` `Readme`s to run. *Basic instructions for setting up an AWS environment with the provided credits are included in this folder.*
 Note that for each lab, the sample solution code corresponds to only the 1st "lab*n*_*labName*_solution1.pdf" solution write-up. These solution write-ups are found in both the Teaching Kit `.zip` package and the `documents` folder in each lab directory in this repository.
 
 #### Cloning and accessing the labs/solutions

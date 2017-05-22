@@ -12,7 +12,7 @@ The labs are designed to be open-ended, multidisciplinary, one- to three-week pr
 
 Thanks to the rapid development of NVIDIA GPUs, training deep neural networks is more efficient than ever in terms of both time and resource cost. Training neural networks on [NVIDIA CUDA-enabled GPUs](https://developer.nvidia.com/cuda-gpus) is a practical necessity for the Teaching Kit labs, including both convolutional networks (Lab1 and Lab2) and recurrent networks (Lab4).
 
-**The DLI Teaching Kit comes with codes worth up to $125 of Amazon Web Services (AWS) GPU compute credit for each student in your course, as well as $200 for yourself as the instructor, to provide a GPU compute platform** to work on the open-ended labs. To request a code for yourself and your students, please send an email to [DeepLearningInstitute@nvidia.com](mailto: DeepLearningInstitute@nvidia) with the subject line “DLI Teaching Kit AWS Access”. An Email will follow with your code and instructions for giving access to your students.
+**The DLI Teaching Kit comes with codes worth up to $125 of Amazon Web Services (AWS) GPU compute credit for each student in your course, as well as $200 for yourself as the instructor, to provide a GPU compute platform** to work on the open-ended labs. To request a code for yourself and your students, please send an email to [NVDLI@nvidia.com](mailto: NVDLI@nvidia) with the subject line “DLI Teaching Kit AWS Access”. An Email will follow with your code and instructions for giving access to your students.
 
 The use of GPUs for the Teaching Kit labs requires a CUDA supported operating system, C compiler, and a recent CUDA Toolkit. The CUDA Toolkit can be downloaded
 from the [CUDA Download](https://developer.nvidia.com/cuda-downloads) page. Instructions on how to install the CUDA Toolkit are available in the
@@ -86,7 +86,7 @@ The DLI Teaching Kit includes access to free online DLI labs (“Qwiklabs”) us
 
 More DL labs and detailed descriptions can be found [here](https://nvidia.qwiklab.com/tags/Deep%20Learning) in the catalogue. To see a list of ALL available labs please go to the [catalog](https://nvidia.qwiklab.com/catalog) and click on the "Labs" tab.
 
-*To enable these labs for your students, please create an account at https://nvidia.qwiklab.com and send your Qwiklab account email address to [DeepLearningInstitute@nvidia.com](mailto: DeepLearningInstitute@nvidia.com) with the subject line “DLI Teaching Kit Qwiklab Access”. Email instructions will then follow for giving access to your students.*
+*To enable these labs for your students, please create an account at https://nvidia.qwiklab.com and send your Qwiklab account email address to [NVDLI@nvidia.com](mailto: NVDLI@nvidia.com) with the subject line “DLI Teaching Kit Qwiklab Access”. Email instructions will then follow for giving access to your students.*
 
 Please see `Online DLI Labs.pdf` from the DLI Teaching Kit `.zip` for more details.
 

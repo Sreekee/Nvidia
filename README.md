@@ -76,7 +76,7 @@ Please read the Kaggle In Class [FAQ](https://www.kaggle.com/wiki/KaggleInClass)
 
 ## NVIDIA DLI Online Labs
 
-The DLI Teaching Kit includes access to free online DLI labs (“Qwiklabs”) using GPUs in the cloud - a value of up to $30 per person per lab. These online labs reinforce deep learning concepts presented in the Teaching Kit to students in a more applied manner. Each Qwiklab is a live, hands-on, self-paced learning environment that includes a set of interactive instructions to walk students through applied deep learning concepts. Students must complete each lab within the allotted time.
+The DLI Teaching Kit includes access to free online DLI labs (“Qwiklabs”) using GPUs in the cloud - a value of up to $30 per person per lab. These online labs reinforce deep learning concepts presented in the teaching kit to students in a more applied manner. Each Qwiklab is a live, hands-on, self-paced learning environment that includes a set of interactive instructions to walk students through applied deep learning concepts. Students must complete each lab within the allotted time.
 
 `Syllabus.pdf` from the DLI Teaching Kit `.zip` suggests when in the course sequence to suggest students take the following 3-lab sequence:
 

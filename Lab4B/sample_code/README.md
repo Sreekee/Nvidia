@@ -1,3 +1,5 @@
+Instructions on setting up your AWS environment can be found in the main Readme.
+
 # Lab 4B
 
 This sample code is from https://github.com/pytorch/examples/tree/master/word_language_model.
@@ -56,25 +58,3 @@ python main.py --emsize 1500 --nhid 1500 --dropout 0.65 --epochs 40 --tied # Tes
 These perplexities are equal or better than
 [Recurrent Neural Network Regularization (Zaremba et al. 2014)](https://arxiv.org/pdf/1409.2329.pdf)
 and are similar to [Using the Output Embedding to Improve Language Models (Press & Wolf 2016](https://arxiv.org/abs/1608.05859) and [Tying Word Vectors and Word Classifiers: A Loss Framework for Language Modeling (Inan et al. 2016)](https://arxiv.org/pdf/1611.01462.pdf), though both of these papers have improved perplexities by using a form of recurrent dropout [(variational dropout)](http://papers.nips.cc/paper/6241-a-theoretically-grounded-application-of-dropout-in-recurrent-neural-networks).
-
-
-#### Environment setup on AWS
-      # Note the script has only been tested on AWS GPU equipped nodes, as this is the GPU resource provided in the DLI Teaching Kit.
-
-      Step 1: Create an AWS computing instance, and launch a terminal.
-
-      Step 2: Download and install CUDA
-        wget http://us.download.nvidia.com/tesla/375.51/nvidia-driver-local-repoubuntu1604_375.51-1_amd64.deb
-        sudo dpkg -i nvidia-driver-local-repo-ubuntu1604_375.51-1_amd64.deb
-        sudo apt-get update
-        sudo apt-get -y install cuda-drivers
-
-      Step 3: reboot the node
-
-      Step 4: Install Anaconda, see: https://docs.continuum.io/anaconda/install
-        wget https://repo.continuum.io/archive/Anaconda2-4.3.1-Linux-x86_64.sh
-        bash ~/Downloads/Anaconda2-4.3.1-Linux-x86_64.sh
-
-      Step 5: Install Pytorch, see: http://pytorch.org/
-        conda install pytorch torchvision cuda80 -c soumith
-     

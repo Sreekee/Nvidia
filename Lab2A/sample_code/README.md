@@ -1,3 +1,5 @@
+Instructions on setting up your AWS environment can be found in the main Readme.
+
 # Lab 2
 
 This set of code is modified from Sergey Zagoruyko's cifar.torch tutorial: [cifar.torch](https://github.com/szagoruyko/cifar.torch/blob/master/README.md).

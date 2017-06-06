@@ -54,7 +54,7 @@ However, the software structure remains the same as `sample_code` and uses the s
 Note that for each lab, the sample solution code corresponds to only the 1st "lab*n*_*labName*_solution1.pdf" solution write-up. These solution write-ups are found in both the Teaching Kit `.zip` package and the `documents` folder in each lab directory in this repository.
 
 #### Environment setup on AWS
-      Note the script has only been tested on AWS GPU equipped nodes, as this is the GPU resource provided in the DLI Teaching Kit.
+      # Note the script has only been tested on AWS GPU equipped nodes, as this is the GPU resource provided in the DLI Teaching Kit.
 
       Step 1: Create an AWS computing instance, and launch a terminal.
 
@@ -70,9 +70,7 @@ Note that for each lab, the sample solution code corresponds to only the 1st "la
         wget https://repo.continuum.io/archive/Anaconda2-4.3.1-Linux-x86_64.sh
         bash ~/Downloads/Anaconda2-4.3.1-Linux-x86_64.sh
 
-      Step 5: Install Pytorch, see: http://pytorch.org/
-        conda install pytorch torchvision cuda80 -c soumith
-
+      Step 5: Install PyTorch and/or Torch as per instructions/links above
 
 #### Cloning and accessing the labs/solutions
 
@@ -81,7 +79,6 @@ To clone the Labs/solutions on your machine and, for example, access Lab1:
     git clone git@bitbucket.org:junbo_jake_zhao/deeplearningkit.git
     cd Lab1
 ```
-
 #### In-class competition    
 Some programming labs include optimizing a neural network training model and suggest students submit solutions to Kaggle using [Kaggle In Class](https://inclass.kaggle.com/) to compare inference accuracy against each other and against the baseline model score from the `sample_code`. Such a competition can encourage students to study the latest public research papers and technical reports to improve their model accuracy on an open-ended problem. Grading model accuracy could simply be based on whether they outperform the baseline, or perhaps based on class rank.
 

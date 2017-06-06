@@ -1,3 +1,5 @@
+Instructions on setting up your AWS environment can be found in the main Readme.
+
 # SemiMNIST
 Overview of Model
 =================

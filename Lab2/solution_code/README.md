@@ -1,3 +1,5 @@
+Instructions on setting up your AWS environment can be found in the main Readme.
+
 ## Step 1: Data augmentation
 ```
 th data_augmentatiuon.lua

@@ -4,7 +4,7 @@ Welcome to the DLI Teaching Kit Lab/solution repository. The kit and associated 
 
 The labs are designed to be open-ended, multidisciplinary, one- to three-week programming and written assignments for students. Each lab contains a description, sample code, sample solutions and suggestions on how instructors can evaluate and have students submit solutions.
 
-**Note that we are currently in the 2nd release of this Teaching Kit. If you have never pulled any labs from this repo and/or are new to the DLI Teaching Kit, please pull from the "Rel2" branch. The new 2nd release labs are 2B, 3, and 4B. Labs 2 and 4 have two different versions (“A” and “B”) because they contain some overlapping concepts but use different problem/data sets. Labs 2B and 4B utilize the PyTorch frameworks. Lab 3 covers Generative Adversarial Networks. Labs 2A and 4A are the same as 1st release Labs 2 and 4. Please pull the 2nd release branch to a new location locally if you have pulled from the previous release.**
+*Note that we are currently in the 2nd release of this Teaching Kit. If you have never pulled any labs from this repo and/or are new to the DLI Teaching Kit, please pull from the "Rel2" branch. The new 2nd release labs are 2B, 3, and 4B. Labs 2 and 4 have two different versions (“A” and “B”) because they contain some overlapping concepts but use different problem/data sets. Labs 2B and 4B utilize the PyTorch frameworks. Lab 3 covers Generative Adversarial Networks. Labs 2A and 4A are the same as 1st release Labs 2 and 4. Please pull the 2nd release branch to a new location locally if you have pulled from the previous release.*
 
 ## System Requirements
 
@@ -12,7 +12,7 @@ The labs are designed to be open-ended, multidisciplinary, one- to three-week pr
 
 Thanks to the rapid development of NVIDIA GPUs, training deep neural networks is more efficient than ever in terms of both time and resource cost. Training neural networks on [NVIDIA CUDA-enabled GPUs](https://developer.nvidia.com/cuda-gpus) is a practical necessity for the Teaching Kit labs, including both convolutional networks (Lab1 and Lab2) and recurrent networks (Lab4).
 
-**Don't have access to GPUs? The DLI Teaching Kit comes with codes worth up to $125 of Amazon Web Services (AWS) GPU compute credit for each student in your course, as well as $200 for yourself as the instructor, to provide a GPU compute platform** to work on the open-ended labs. To request a code for yourself and your students, please send an email to [NVDLI@nvidia.com](mailto: NVDLI@nvidia) with the subject line “DLI Teaching Kit AWS Access”. An email will follow with your code and instructions for giving access to your students.
+**Don't have access to GPUs? The DLI Teaching Kit comes with codes worth up to $125 of Amazon Web Services (AWS) GPU compute credit for each student in your course, as well as $200 for yourself as the instructor, to provide a GPU compute platform** to work on the open-ended labs. To request a code for yourself and your students, please send an email to [NVDLI@nvidia.com](mailto: NVDLI@nvidia) with the subject line “DLI Teaching Kit AWS Access”. An email will follow with your code and instructions for giving access to your students. *Instructions on setting up your AWS environment can be found below.*
 
 The use of GPUs for the Teaching Kit labs requires a CUDA supported operating system, C compiler, and a recent CUDA Toolkit. The CUDA Toolkit can be downloaded
 from the [CUDA Download](https://developer.nvidia.com/cuda-downloads) page. Instructions on how to install the CUDA Toolkit are available in the
@@ -45,16 +45,17 @@ PyTorch integrates cuDNN automatically. To install cuDNN and use cuDNN with Torc
 `documents` in each lab directory contains the same lab description and sample solution write-up `.pdf` documents as in the DLI Teaching Kit `.zip` package.
 
 #### Baseline sample code
-`sample_code` in each each lab directory contains the baseline training model solution (as well as instructions to run) described in the lab descriptions. These baseline models render a baseline score for the given data set that students are suggested to outperform. The `sample_code` is designed to be given to students when the lab is assigned. *Basic instructions for setting up an AWS environment with the provided credits are included in this folder*
+`sample_code` in each each lab directory contains the baseline training model solution (as well as instructions to run) described in the lab descriptions. These baseline models render a baseline score for the given data set that students are suggested to outperform. The `sample_code` is designed to be given to students when the lab is assigned.
 
 #### Lab solutions
 `solution_code` in each lab directory contains an example implementation of approaches that improve the model performance. These solutions were developed by real students who took the Deep Learning curriculum course at NYU. Some solutions may require additional, undocumented instructions to properly execute. 
 Unlike the `sample_code`, some solution samples are not designed to run "out-of-box", but should still provide useful examples of solutions using a variety of techniques for both instructors and students to learn from.
-However, the software structure remains the same as `sample_code` and uses the same execution script in the `sample_code` `Readme`s to run. *Basic instructions for setting up an AWS environment with the provided credits are included in this folder.*
+However, the software structure remains the same as `sample_code` and uses the same execution script in the `sample_code` `Readme`s to run.
 Note that for each lab, the sample solution code corresponds to only the 1st "lab*n*_*labName*_solution1.pdf" solution write-up. These solution write-ups are found in both the Teaching Kit `.zip` package and the `documents` folder in each lab directory in this repository.
 
 #### Environment setup on AWS
-      # Note the script has only been tested on AWS GPU equipped nodes, as this is the GPU resource provided in the DLI Teaching Kit.
+
+*Note the script has only been tested on AWS GPU equipped nodes, as this is the GPU resource provided in the DLI Teaching Kit.*
 
       Step 1: Create an AWS computing instance, and launch a terminal.
 

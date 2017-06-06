@@ -53,6 +53,27 @@ Unlike the `sample_code`, some solution samples are not designed to run "out-of-
 However, the software structure remains the same as `sample_code` and uses the same execution script in the `sample_code` `Readme`s to run. *Basic instructions for setting up an AWS environment with the provided credits are included in this folder.*
 Note that for each lab, the sample solution code corresponds to only the 1st "lab*n*_*labName*_solution1.pdf" solution write-up. These solution write-ups are found in both the Teaching Kit `.zip` package and the `documents` folder in each lab directory in this repository.
 
+#### Environment setup on AWS
+      Note the script has only been tested on AWS GPU equipped nodes, as this is the GPU resource provided in the DLI Teaching Kit.
+
+      Step 1: Create an AWS computing instance, and launch a terminal.
+
+      Step 2: Download and install CUDA
+        wget http://us.download.nvidia.com/tesla/375.51/nvidia-driver-local-repoubuntu1604_375.51-1_amd64.deb
+        sudo dpkg -i nvidia-driver-local-repo-ubuntu1604_375.51-1_amd64.deb
+        sudo apt-get update
+        sudo apt-get -y install cuda-drivers
+
+      Step 3: reboot the node
+
+      Step 4: Install Anaconda, see: https://docs.continuum.io/anaconda/install
+        wget https://repo.continuum.io/archive/Anaconda2-4.3.1-Linux-x86_64.sh
+        bash ~/Downloads/Anaconda2-4.3.1-Linux-x86_64.sh
+
+      Step 5: Install Pytorch, see: http://pytorch.org/
+        conda install pytorch torchvision cuda80 -c soumith
+
+
 #### Cloning and accessing the labs/solutions
 
 To clone the Labs/solutions on your machine and, for example, access Lab1:

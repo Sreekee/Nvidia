@@ -2,8 +2,9 @@ Language Modeling with Long Short Term Memory Units
 ============================
 Forked from https://github.com/wojzaremba/lstm.
 
+Instructions on setting up your AWS environment can be found in the main Readme.
+
 Modifications
 --------------
-* Runs on CPU and GPU
 * Added more comments
 * Removed traces of character-level language model

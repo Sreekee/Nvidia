@@ -14,12 +14,31 @@ Thanks to the rapid development of NVIDIA GPUs, training deep neural networks is
 
 **Don't have access to GPUs? The DLI Teaching Kit comes with codes worth up to $125 of Amazon Web Services (AWS) GPU compute credit for each student in your course, as well as $200 for yourself as the instructor, to provide a GPU compute platform** to work on the open-ended labs. To request a code for yourself and your students, please send an email to [NVDLI@nvidia.com](mailto: NVDLI@nvidia) with the subject line “DLI Teaching Kit AWS Access”. An email will follow with your code and instructions for giving access to your students. *Instructions on setting up your AWS environment can be found below.*
 
-The use of GPUs for the Teaching Kit labs requires a CUDA supported operating system, C compiler, and a recent CUDA Toolkit. The CUDA Toolkit can be downloaded
-from the [CUDA Download](https://developer.nvidia.com/cuda-downloads) page. Instructions on how to install the CUDA Toolkit are available in the
-[Quick Start page](http://docs.nvidia.com/cuda/cuda-quick-start-guide/index.html). Installation guides and the list of supported C compilers for [Windows](http://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/index.html), [Linux](http://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html), and
-[OSX](http://docs.nvidia.com/cuda/cuda-installation-guide-mac-os-x/index.html) are also found in the [CUDA Toolkit Documentation Page](http://docs.nvidia.com/cuda/index.html).
+The use of GPUs for the Teaching Kit labs requires a CUDA supported operating system, C compiler, and a recent CUDA Toolkit. Basic instructions on how to download and install the CUDA Toolkit can be found below in the Environment setup. More details can be found in the NVIDIA documentation on how [download](https://developer.nvidia.com/cuda-downloads)and [install](http://docs.nvidia.com/cuda/cuda-quick-start-guide/index.html) the CUDA Toolkit. Installation guides and the list of supported C compilers for [Windows](http://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/index.html), [Linux](http://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html), and [OSX](http://docs.nvidia.com/cuda/cuda-installation-guide-mac-os-x/index.html) are also found in the [CUDA Toolkit Documentation Page](http://docs.nvidia.com/cuda/index.html).
 
 CUDA and the associated libraries should be installed prior to any deep learning specific tools.
+
+#### Environment setup
+
+*Note these steps have only been tested on GPU equipped nodes.*
+
+      Step 1: If using AWS or another cloud resource, create an computing instance.
+
+      Step 2: Launch a terminal
+    
+      Step 3: Download and install CUDA Toolkit
+        wget http://us.download.nvidia.com/tesla/375.51/nvidia-driver-local-repoubuntu1604_375.51-1_amd64.deb
+        sudo dpkg -i nvidia-driver-local-repo-ubuntu1604_375.51-1_amd64.deb
+        sudo apt-get update
+        sudo apt-get -y install cuda-drivers
+
+      Step 4: Reboot the node
+
+      Step 5: Install Anaconda, see: https://docs.continuum.io/anaconda/install
+        wget https://repo.continuum.io/archive/Anaconda2-4.3.1-Linux-x86_64.sh
+        bash ~/Downloads/Anaconda2-4.3.1-Linux-x86_64.sh
+
+      Step 6: Install PyTorch and/or Torch as per instructions/links below
 
 #### PyTorch and Torch computing frameworks
     
@@ -52,26 +71,6 @@ PyTorch integrates cuDNN automatically. To install cuDNN and use cuDNN with Torc
 Unlike the `sample_code`, some solution samples are not designed to run "out-of-box", but should still provide useful examples of solutions using a variety of techniques for both instructors and students to learn from.
 However, the software structure remains the same as `sample_code` and uses the same execution script in the `sample_code` `Readme`s to run.
 Note that for each lab, the sample solution code corresponds to only the 1st "lab*n*_*labName*_solution1.pdf" solution write-up. These solution write-ups are found in both the Teaching Kit `.zip` package and the `documents` folder in each lab directory in this repository.
-
-#### Environment setup on AWS
-
-*Note the script has only been tested on AWS GPU equipped nodes, as this is the GPU resource provided in the DLI Teaching Kit.*
-
-      Step 1: Create an AWS computing instance, and launch a terminal.
-
-      Step 2: Download and install CUDA
-        wget http://us.download.nvidia.com/tesla/375.51/nvidia-driver-local-repoubuntu1604_375.51-1_amd64.deb
-        sudo dpkg -i nvidia-driver-local-repo-ubuntu1604_375.51-1_amd64.deb
-        sudo apt-get update
-        sudo apt-get -y install cuda-drivers
-
-      Step 3: reboot the node
-
-      Step 4: Install Anaconda, see: https://docs.continuum.io/anaconda/install
-        wget https://repo.continuum.io/archive/Anaconda2-4.3.1-Linux-x86_64.sh
-        bash ~/Downloads/Anaconda2-4.3.1-Linux-x86_64.sh
-
-      Step 5: Install PyTorch and/or Torch as per instructions/links above
 
 #### Cloning and accessing the labs/solutions
 

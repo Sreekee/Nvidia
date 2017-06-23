@@ -1,4 +1,4 @@
-Instructions on setting up your AWS environment can be found in the main Readme.
+Instructions on setting up your environment can be found in the main Readme.
 
 ## Step 1: Data augmentation
 ```

@@ -8,7 +8,7 @@ import pickle
 
 import data
 from data import to_gpu
-import model
+import models
 
 parser = argparse.ArgumentParser(description='PyTorch PennTreeBank RNN/LSTM Language Model')
 parser.add_argument('--data', type=str, default='./data/penn',
@@ -19,20 +19,10 @@ parser.add_argument('--seed', type=int, default=1111,
                     help='random seed')
 parser.add_argument('--cuda', action='store_true',
                     help='use CUDA')
-parser.add_argument('--bptt', type=int, default=35,
-                    help='sequence length')
 parser.add_argument('--load', type=str, default='ptb-1000.pt',
                     help='path to model to load; if empty str, creates new model')
-parser.add_argument('--eval', default=True,\
-                    help='just evaluates loaded model')
-parser.add_argument('--attn', action='store_true',
-                    help='uses window attention')
-parser.add_argument('--window', type=int, default=5,\
-                    help='window side for attention')
-parser.add_argument('--context', action='store_true',\
-                    help='context model')
-parser.add_argument('--context-count', type=int, default=3,\
-                    help='context model')
+parser.add_argument('--bptt', type=int, default=35,
+                            help='sequence length')
 args = parser.parse_args()
 
 # Set the random seed manually for reproducibility.
@@ -62,13 +52,13 @@ eval_batch_size = 10
 train_data, train_char_data = batchify(corpus.train[0], corpus.train[1], args.batch_size)
 val_data, val_char_data = batchify(corpus.valid[0], corpus.valid[1], eval_batch_size)
 test_data, test_char_data = batchify(corpus.test[0], corpus.test[1], eval_batch_size)
-print("data loaded")
+print("Data loaded")
 
 ###############################################################################
 # Load the model
 ###############################################################################
 
-model = torch.load(args.load)
+model = torch.load(args.load, map_location=lambda storage, loc: storage)
 if args.cuda:
     model.cuda()
 else:
@@ -108,11 +98,7 @@ def evaluate(data_source):
     hidden = model.init_hidden(eval_batch_size)
     for i in range(0, data_source.size(0) - 1, args.bptt):
         data, targets = get_batch(data_source, i, evaluation=True)
-        if args.context:
-            data_prev, targets_prev = get_batch(data_source, i-args.bptt, evaluation=True)
-            output, hidden = model(data, hidden, data_prev)
-        else:
-            output, hidden = model(data, hidden)
+        output, hidden = model(data, hidden)
         output_flat = output.view(-1, ntokens) #68259
         total_loss += len(data) * criterion(output_flat, targets).data
         hidden = repackage_hidden(hidden)

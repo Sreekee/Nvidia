@@ -2,7 +2,6 @@
 # Language Modeling on Penn Tree Bank
 #
 # This file generates new sentences sampled from the language model
-#
 ###############################################################################
 
 import argparse
@@ -17,7 +16,7 @@ parser = argparse.ArgumentParser(description='PyTorch PTB Language Model')
 # Model parameters.
 parser.add_argument('--data', type=str, default='./data/penn',
                     help='location of the data corpus')
-parser.add_argument('--checkpoint', type=str, default='./model.pt',
+parser.add_argument('--load', type=str, default='./model.pt',
                     help='model checkpoint to use')
 parser.add_argument('--outf', type=str, default='generated.txt',
                     help='output file for generated text')
@@ -44,7 +43,7 @@ if torch.cuda.is_available():
 if args.temperature < 1e-3:
     parser.error("--temperature has to be greater or equal 1e-3")
 
-with open(args.checkpoint, 'rb') as f:
+with open(args.load, 'rb') as f:
     model = torch.load(f)
 model.eval()
 
@@ -54,7 +53,7 @@ else:
     model.cpu()
 
 corpus = data.Corpus(args.data)
-ntokens = len(corpus.dictionary)
+ntokens = len(corpus.dictionary.word2idx)
 hidden = model.init_hidden(1)
 input = Variable(torch.rand(1, 1).mul(ntokens).long(), volatile=True)
 if args.cuda:

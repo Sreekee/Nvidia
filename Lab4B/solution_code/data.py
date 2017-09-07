@@ -1,10 +1,12 @@
 import os
 import torch
 
-def to_gpu(args, var):
-    if args.cuda:
+
+def to_gpu(cuda, var):
+    if cuda:
         return var.cuda()
     return var
+
 
 class Dictionary(object):
     def __init__(self):
@@ -68,7 +70,6 @@ class Corpus(object):
         max_word_length = 21 # replace hardcoded value with func arg
 
         # Tokenize file content
-        #with open(path, 'r', encoding="ISO-8859-1") as f:
         with open(path, 'r') as f:
             wordids = torch.LongTensor(wordtokens)
             charids = torch.ones(wordtokens, max_word_length).long()
@@ -84,7 +85,6 @@ class Corpus(object):
                     wordids[wordtoken] = self.dictionary.word2idx[word]
 
                     for char in word:
-                        char = char.encode('utf-8')
                         charids[wordtoken][chartoken] = self.dictionary.char2idx[char]
                         chartoken += 1
 

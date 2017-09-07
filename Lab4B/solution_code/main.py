@@ -8,13 +8,13 @@ import pickle
 
 import data
 from data import to_gpu
-import model
+import models
 
 parser = argparse.ArgumentParser(description='PyTorch PennTreeBank RNN/LSTM Language Model')
 parser.add_argument('--data', type=str, default='./data/penn',
                     help='location of the data corpus')
 parser.add_argument('--model', type=str, default='LSTM',
-                    help='type of recurrent net (RNN_TANH, RNN_RELU, LSTM, GRU)')
+                    help='type of recurrent net (LSTM, GRU)')
 parser.add_argument('--emsize', type=int, default=200,
                     help='size of word embeddings')
 parser.add_argument('--nhid', type=int, default=200,
@@ -45,14 +45,6 @@ parser.add_argument('--save', type=str,  default='model.pt',
                     help='path to save the final model')
 parser.add_argument('--load', type=str, default='',
                     help='path to model to load; if empty str, creates new model')
-parser.add_argument('--attn', action='store_true',
-                    help='uses window attention')
-parser.add_argument('--window', type=int, default=5,\
-                    help='window side for attention')
-parser.add_argument('--context', action='store_true',\
-                    help='context model')
-parser.add_argument('--context-count', type=int, default=3,\
-                    help='context model')
 parser.add_argument('--eval', action='store_true',\
                     help='just evaluates loaded model')
 args = parser.parse_args()
@@ -98,12 +90,7 @@ nchartokens = len(corpus.dictionary.char2idx)
 if args.load != "":
     model = torch.load(args.load)
 else:
-    if args.attn:
-        model = model.RNNAttentionModel(args.model, ntokens, args.emsize, args.nhid, args.nlayers, args.dropout, args.tied, args.window)
-    elif args.context:
-        model = model.RNNContextModel(args.model, ntokens, args.emsize, args.nhid, args.nlayers, args.dropout, args.tied, args.context_count)
-    else:
-        model = model.RNNModel(args.model, ntokens, args.emsize, args.nhid, args.nlayers, args.dropout, args.tied)
+    model = models.RNNModel(args.model, ntokens, args.emsize, args.nhid, args.nlayers, args.dropout, args.tied, gpu=args.cuda)
 if args.cuda:
     model.cuda()
 
@@ -124,8 +111,8 @@ def repackage_hidden(h):
 def get_batch(source, i, evaluation=False):
     if i < 1:
         seq_len = min(args.bptt, len(source) - 1 - i)
-        data = to_gpu(args, Variable(torch.zeros(source[0:0+seq_len].size()).long(), volatile=evaluation))
-        target = to_gpu(args,Variable(torch.zeros(source[0+1:0+1+seq_len].view(-1).size()).long()))
+        data = to_gpu(args.cuda, Variable(torch.zeros(source[:seq_len].size()).long(), volatile=evaluation))
+        target = to_gpu(args.cuda,Variable(torch.zeros(source[1:1+seq_len].view(-1).size()).long()))
         return data, target
     seq_len = min(args.bptt, len(source) - 1 - i)
     data = Variable(source[i:i+seq_len], volatile=evaluation)
@@ -137,14 +124,10 @@ def evaluate(data_source):
     model.eval()
     total_loss = 0
     ntokens = len(corpus.dictionary.word2idx)
-    hidden = to_gpu(args, model.init_hidden(eval_batch_size))
+    hidden = model.init_hidden(eval_batch_size)
     for i in range(0, data_source.size(0) - 1, args.bptt):
         data, targets = get_batch(data_source, i, evaluation=True)
-        if args.context:
-            data_prev, targets_prev = get_batch(data_source, i-args.bptt, evaluation=True)
-            output, hidden = model(data, hidden, data_prev)
-        else:
-            output, hidden = model(data, hidden)
+        output, hidden = model(data, hidden)
         output_flat = output.view(-1, ntokens)
         total_loss += len(data) * criterion(output_flat, targets).data
         hidden = repackage_hidden(hidden)
@@ -157,7 +140,7 @@ def train():
     total_loss = 0
     start_time = time.time()
     ntokens = len(corpus.dictionary.word2idx)
-    hidden = to_gpu(args, model.init_hidden(args.batch_size))
+    hidden = model.init_hidden(args.batch_size)
     for batch, i in enumerate(range(0, train_data.size(0) - 1, args.bptt)):
         data, targets = get_batch(train_data, i)
         # Starting each batch, we detach the hidden state from how it was previously produced.
@@ -165,11 +148,7 @@ def train():
         hidden = repackage_hidden(hidden)
         model.zero_grad()
 
-        if args.context:
-            data_prev, targets_prev = get_batch(train_data, i-args.bptt)
-            output, hidden = model(data, hidden, data_prev)
-        else:
-            output, hidden = model(data, hidden)
+        output, hidden = model(data, hidden)
 
         loss = criterion(output.view(-1, ntokens), targets)
         loss.backward()
@@ -226,6 +205,7 @@ try:
             # Anneal the learning rate if no improvement has been seen in the validation dataset.
             lr *= 0.25
         pickle.dump(stats, open("stats_"+args.save[:-3]+".p", "wb"))
+
 except KeyboardInterrupt:
     print('-' * 89)
     print('Exiting from training early')

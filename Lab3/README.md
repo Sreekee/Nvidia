@@ -1,4 +1,4 @@
-Lab 3
-Recommended prerequisite lectures
+## Lab 3
 
-    Lab3: Module 1 through Module 5 - Optimization Techniques
+#### Recommended prerequisite lectures
+* Lab3: Module 1 through Module 5 - Optimization Techniques

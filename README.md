@@ -96,13 +96,14 @@ Please read the Kaggle In Class [FAQ](https://www.kaggle.com/wiki/KaggleInClass)
 
 The DLI Teaching Kit includes access to free online DLI labs (“Qwiklabs”) using GPUs in the cloud - a value of up to $30 per person per lab. These online labs reinforce deep learning concepts presented in the teaching kit to students in a more applied manner. Each Qwiklab is a live, hands-on, self-paced learning environment that includes a set of interactive instructions to walk students through applied deep learning concepts. Students must complete each lab within the allotted time.
 
-`Syllabus.pdf` from the DLI Teaching Kit `.zip` suggests when in the course sequence to suggest students take the following 3-lab sequence:
+`Syllabus.pdf` from the DLI Teaching Kit `.zip` suggests when in the course sequence to suggest students take the following four-lab sequence:
 
-* Image Classification with NVIDIA DIGITS
-* Object Detection with NVIDIA DIGITS
-* Image Segmentation with TensorFlow
+* [Image Classification with DIGITS](https://nvidia.qwiklab.com/focuses/5866)
+* [Object Detection with DIGITS](https://nvidia.qwiklab.com/focuses/1204)
+* [Image Segmentation with TensorFlow](https://nvidia.qwiklab.com/focuses/2193)
+* [Neural Network Deployment with DIGITS and TensorRT](https://nvidia.qwiklab.com/focuses/1207)
 
-More DL labs and detailed descriptions can be found [here](https://nvidia.qwiklab.com/tags/Deep%20Learning) in the catalogue. To see a list of ALL available labs please go to the [catalog](https://nvidia.qwiklab.com/catalog) and click on the "Labs" tab.
+More DL labs and detailed descriptions can be found [here](https://developer.nvidia.com/dli/onlinelabs). To see a list of ALL available labs please go to the [catalog](https://nvidia.qwiklab.com/catalog) and click on the "Labs" tab.
 
 *To enable these labs for your students, please create an account at https://nvidia.qwiklab.com and send your Qwiklab account email address to [NVDLI@nvidia.com](mailto: NVDLI@nvidia.com) with the subject line “DLI Teaching Kit Qwiklab Access”. Email instructions will then follow for giving access to your students.*
 

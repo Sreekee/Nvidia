@@ -102,15 +102,15 @@ The recommended DLI course (with certification) for students learning through th
 
 *To enable these or any other courses/electives for your students, please create an account at [courses.nvidia.com](https://courses.nvidia.com). Then, send your account email address along with the number of students in your course to NVDLI@nvidia.com with subject line “DLI Teaching Kit Online Course Access”. You will then receive information about how to give free access to your students.*
 
-Detailed descriptions of all available DLI courses and electives can be found at [www.nvidia.com/dli](www.nvidia.com/dli).
+Detailed descriptions of all available DLI courses and electives can be found at [www.nvidia.com/dli](https://www.nvidia.com/dli).
 
 ## About the NVIDIA Deep Learning Institute (DLI)
 The NVIDIA Deep Learning Institute (DLI) offers hands-on training for developers, datascientists, and researchers looking to solve challenging problems with deep learning andaccelerated computing. Through built-in assessments, students can earn certifications thatprove subject matter competency and can be leveraged for professional career growth.
 
 #### Become a DLI Certified University Ambassador
-Join the University Ambassador Program to teach DLI courses at your university to students, faculty, and researchers at no cost. Educators can apply at [www.nvidia.com/dli](www.nvidia.com/dli).
+Join the University Ambassador Program to teach DLI courses at your university to students, faculty, and researchers at no cost. Educators can apply at [www.nvidia.com/dli](https://www.nvidia.com/dli).
 
 #### Attend Instructor-led Training
-In addition to online, self-paced courses, DLI offers all fundamentals and industry-specific courses as in-person workshops led by DLI-certified instructors. View upcoming workshops near you at [www.nvidia.com/dli](www.nvidia.com/dli).
+In addition to online, self-paced courses, DLI offers all fundamentals and industry-specific courses as in-person workshops led by DLI-certified instructors. View upcoming workshops near you at [www.nvidia.com/dli](https://www.nvidia.com/dli).
 
-Want to schedule training for your school? Request an onsite workshop at your university at [www.nvidia.com/requestdli](www.nvidia.com/requestdli).
+Want to schedule training for your school? Request an onsite workshop at your university at [www.nvidia.com/requestdli](https://www.nvidia.com/requestdli).

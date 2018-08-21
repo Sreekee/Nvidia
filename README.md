@@ -92,32 +92,25 @@ Please read the Kaggle In Class [FAQ](https://www.kaggle.com/wiki/KaggleInClass)
 - Compare the model prediction and groudtruth label on the testing set, and obtain the accuracy
 - Use the testing accuracy to evaluate/compare students'/teams' model performance
 
-## NVIDIA DLI Online Labs
+## NVIDIA DLI Online Courses and Certification
 
-The DLI Teaching Kit includes access to free online DLI labs (“Qwiklabs”) using GPUs in the cloud - a value of up to $30 per person per lab. These online labs reinforce deep learning concepts presented in the teaching kit to students in a more applied manner. Each Qwiklab is a live, hands-on, self-paced learning environment that includes a set of interactive instructions to walk students through applied deep learning concepts. Students must complete each lab within the allotted time.
+The NVIDIA Deep Learning Institute (DLI) Teaching Kit includes access to free online DLI courses and electives – **a value of up to $180 per person per course**. DLI training reinforces deep learning concepts presented in the Teaching Kits and teaches students how to apply those concepts to end-to-end projects. Through built-in assessments, students can earn certifications that prove subject matter competency and can be leveraged for professional career growth. Each course presents a self-paced learning environment with access to a GPU-accelerated workstation in the cloud. All you need is a web browser and Internet connection to get started.
 
-`Syllabus.pdf` from the DLI Teaching Kit `.zip` suggests when in the course sequence to suggest students take the following four-lab sequence:
+The recommended DLI course (with certification) for students learning through the DLI Teaching Kit is **[Fundamentals of Deep Learning for Computer Vision](https://courses.nvidia.com/courses/course-v1:DLI+C-FX-01+V2/about)**.
 
-* [Image Classification with DIGITS](https://nvidia.qwiklab.com/focuses/5866)
-* [Object Detection with DIGITS](https://nvidia.qwiklab.com/focuses/1204)
-* [Image Segmentation with TensorFlow](https://nvidia.qwiklab.com/focuses/2193)
-* [Neural Network Deployment with DIGITS and TensorRT](https://nvidia.qwiklab.com/focuses/1207)
+`Syllabus.pdf` suggests students take this full-day course upon near-completion of your university semester course. It also suggests shorter electives that can be used as labs throughout your university course.
 
-More DL labs and detailed descriptions can be found [here](https://developer.nvidia.com/dli/onlinelabs). To see a list of ALL available labs please go to the [catalog](https://nvidia.qwiklab.com/catalog) and click on the "Labs" tab.
+*To enable these or any other courses/electives for your students, please create an account at [courses.nvidia.com](https://courses.nvidia.com). Then, send your account email address along with the number of students in your course to NVDLI@nvidia.com with subject line “DLI Teaching Kit Online Course Access”. You will then receive information about how to give free access to your students.*
 
-*To enable these labs for your students, please create an account at https://nvidia.qwiklab.com and send your Qwiklab account email address to [NVDLI@nvidia.com](mailto: NVDLI@nvidia.com) with the subject line “DLI Teaching Kit Qwiklab Access”. Email instructions will then follow for giving access to your students.*
-
-Please see `Online DLI Labs.pdf` from the DLI Teaching Kit `.zip` for more details.
+Detailed descriptions of all available DLI courses and electives can be found at [www.nvidia.com/dli](www.nvidia.com/dli).
 
 ## About the NVIDIA Deep Learning Institute (DLI)
-The NVIDIA DLI offers hands-on training for developers, data scientists, and researchers looking to solve challenging problems with deep learning.
+The NVIDIA Deep Learning Institute (DLI) offers hands-on training for developers, datascientists, and researchers looking to solve challenging problems with deep learning andaccelerated computing. Through built-in assessments, students can earn certifications thatprove subject matter competency and can be leveraged for professional career growth.
 
-Through self-paced online labs and instructor-led workshops, DLI provides training on the latest techniques for designing, training, and deploying neural networks across a variety of application domains including self-driving cars, healthcare, robotics, finance, and video analytics.
+#### Become a DLI Certified University Ambassador
+Join the University Ambassador Program to teach DLI courses at your university to students, faculty, and researchers at no cost. Educators can apply at [www.nvidia.com/dli](www.nvidia.com/dli).
 
-#### Start a Deep Learning Project
-Explore three simple steps to kick off your deep learning initiative for a solo project, a small team, or at scale: www.nvidia.com/deep-learning/developer.
+#### Attend Instructor-led Training
+In addition to online, self-paced courses, DLI offers all fundamentals and industry-specific courses as in-person workshops led by DLI-certified instructors. View upcoming workshops near you at [www.nvidia.com/dli](www.nvidia.com/dli).
 
-#### Keep Learning with DLI
-Check out upcoming workshops in your area at www.nvidia.com/dli. 
-
-Request an onsite workshop for your team at www.nvidia.com/requestdli.
+Want to schedule training for your school? Request an onsite workshop at your university at [www.nvidia.com/requestdli](www.nvidia.com/requestdli).
